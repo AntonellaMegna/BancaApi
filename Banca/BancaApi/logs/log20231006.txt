@@ -1,0 +1,281 @@
+[06-10-2023 09:23:03 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 09:23:03 [INF] Hosting environment: Development
+][06-10-2023 09:23:03 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 09:23:22 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 09:23:22 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 09:23:25 [INF] HTTP POST /api/authcontroller/login responded 200 in 4134.7096 ms
+][06-10-2023 09:24:48 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 09:24:48 [INF] Hosting environment: Development
+][06-10-2023 09:24:48 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 09:25:14 [ERR] Invalid Password
+][06-10-2023 09:25:14 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 5544.8201 ms
+][06-10-2023 09:25:49 [INF] HTTP GET /api/cachecontroller/GetIdentityUser responded 200 in 58.4774 ms
+][06-10-2023 09:32:38 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 09:32:38 [INF] Hosting environment: Development
+][06-10-2023 09:32:38 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 09:33:49 [ERR] Invalid Password
+][06-10-2023 09:33:49 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 51976.8964 ms
+][06-10-2023 09:34:10 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 42.7608 ms
+][06-10-2023 09:34:24 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 23.0229 ms
+][06-10-2023 09:34:42 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 09:34:42 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 09:35:27 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 51070.3884 ms
+][06-10-2023 09:36:46 [INF] HTTP GET /api/corrcontroller/Movimenti responded 401 in 55.3650 ms
+][06-10-2023 09:37:10 [INF] HTTP GET /api/corrcontroller/Movimenti responded 200 in 193.6188 ms
+][06-10-2023 09:42:33 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 09:42:34 [INF] Hosting environment: Development
+][06-10-2023 09:42:34 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 09:43:07 [ERR] Invalid Password
+][06-10-2023 09:43:07 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 15243.2173 ms
+][06-10-2023 09:44:15 [ERR] Invalid Password
+][06-10-2023 09:44:15 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 49547.1048 ms
+][06-10-2023 09:44:56 [ERR] Invalid Password
+][06-10-2023 09:44:56 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 38830.5785 ms
+][06-10-2023 09:45:55 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 09:45:55 [INF] Hosting environment: Development
+][06-10-2023 09:45:55 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 09:48:44 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 09:48:44 [INF] Hosting environment: Development
+][06-10-2023 09:48:44 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 09:49:17 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 09:49:17 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 09:50:32 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 83758.8619 ms
+][06-10-2023 09:57:01 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 09:57:01 [INF] Hosting environment: Development
+][06-10-2023 09:57:01 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 09:57:29 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 09:57:29 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 09:58:56 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 09:58:56 [INF] Hosting environment: Development
+][06-10-2023 09:58:56 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 09:59:20 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 09:59:20 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 10:00:16 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 61125.6868 ms
+][06-10-2023 11:11:47 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 11:11:47 [INF] Hosting environment: Development
+][06-10-2023 11:11:47 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 11:12:07 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 11:12:07 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 11:12:53 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 47041.8163 ms
+][06-10-2023 11:13:29 [INF] HTTP POST /api/authcontroller/login responded 200 in 4525.3122 ms
+][06-10-2023 11:13:55 [INF] HTTP POST /api/authcontroller/login responded 200 in 425.7271 ms
+][06-10-2023 11:14:35 [INF] HTTP POST /api/authcontroller/login responded 200 in 19605.8914 ms
+][06-10-2023 11:15:53 [INF] HTTP POST /api/authcontroller/login responded 200 in 2440.7817 ms
+][06-10-2023 11:16:59 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 11:16:59 [INF] Hosting environment: Development
+][06-10-2023 11:16:59 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 11:17:12 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 122
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][06-10-2023 11:17:12 [ERR] HTTP POST /api/authcontroller/login responded 500 in 2669.0025 ms
+][06-10-2023 11:18:26 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 11:18:26 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 11:18:29 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 7788.7215 ms
+][06-10-2023 11:48:25 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 11:48:25 [INF] Hosting environment: Development
+][06-10-2023 11:48:25 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 11:49:51 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 11:49:51 [INF] Hosting environment: Development
+][06-10-2023 11:49:51 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 11:49:59 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 11:49:59 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 11:50:01 [INF] HTTP POST /api/authcontroller/login responded 400 in 2973.2634 ms
+][06-10-2023 11:56:37 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 11:56:37 [INF] Hosting environment: Development
+][06-10-2023 11:56:37 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 09:57:49 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][06-10-2023 09:57:49 [WRN] No XML encryptor configured. Key {e67af148-1ce8-43b1-bd91-275a3c382893} may be persisted to storage in unencrypted form.
+][06-10-2023 09:57:50 [INF] Now listening on: https://[::]:443
+][06-10-2023 09:57:50 [INF] Now listening on: http://[::]:80
+][06-10-2023 09:57:50 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 09:57:50 [INF] Hosting environment: Development
+][06-10-2023 09:57:50 [INF] Content root path: /app
+][06-10-2023 11:58:14 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 11:58:14 [INF] Hosting environment: Development
+][06-10-2023 11:58:14 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 11:58:44 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 122
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][06-10-2023 11:58:44 [ERR] HTTP POST /api/authcontroller/login responded 500 in 3109.8029 ms
+][06-10-2023 11:59:49 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 11:59:49 [INF] Hosting environment: Development
+][06-10-2023 11:59:49 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 12:00:09 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 122
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][06-10-2023 12:00:09 [ERR] HTTP POST /api/authcontroller/login responded 500 in 1807.9235 ms
+][06-10-2023 12:02:05 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 12:02:05 [INF] Hosting environment: Development
+][06-10-2023 12:02:05 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 12:02:26 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 122
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][06-10-2023 12:02:26 [ERR] HTTP POST /api/authcontroller/login responded 500 in 1710.6598 ms
+][06-10-2023 12:04:35 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 12:04:35 [INF] Hosting environment: Development
+][06-10-2023 12:04:35 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 12:05:15 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 122
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][06-10-2023 12:05:15 [ERR] HTTP POST /api/authcontroller/login responded 500 in 2129.7757 ms
+][06-10-2023 12:07:21 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 12:07:21 [INF] Hosting environment: Development
+][06-10-2023 12:07:21 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 12:07:43 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 122
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][06-10-2023 12:07:43 [ERR] HTTP POST /api/authcontroller/login responded 500 in 1693.0578 ms
+][06-10-2023 12:08:23 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 12:08:23 [INF] Hosting environment: Development
+][06-10-2023 12:08:23 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 12:08:43 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 122
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][06-10-2023 12:08:43 [ERR] HTTP POST /api/authcontroller/login responded 500 in 1710.1615 ms
+][06-10-2023 18:08:07 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 18:08:07 [INF] Hosting environment: Development
+][06-10-2023 18:08:07 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 18:08:18 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 18:08:18 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 18:08:23 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 123
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][06-10-2023 18:08:23 [ERR] HTTP POST /api/authcontroller/login responded 500 in 5552.2800 ms
+][06-10-2023 18:10:22 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 123
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][06-10-2023 18:10:22 [ERR] HTTP POST /api/authcontroller/login responded 500 in 82971.7659 ms
+][06-10-2023 18:13:34 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 18:13:34 [INF] Hosting environment: Development
+][06-10-2023 18:13:34 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 18:13:52 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 123
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][06-10-2023 18:13:52 [ERR] HTTP POST /api/authcontroller/login responded 500 in 11899.8786 ms
+][06-10-2023 18:15:57 [INF] Application started. Press Ctrl+C to shut down.
+][06-10-2023 18:15:57 [INF] Hosting environment: Development
+][06-10-2023 18:15:57 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][06-10-2023 18:17:56 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 18:17:56 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][06-10-2023 18:17:56 [INF] HTTP POST /api/authcontroller/login responded 400 in 52149.1640 ms
+]

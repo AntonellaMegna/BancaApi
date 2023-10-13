@@ -1,0 +1,14 @@
+C:\Users\amegna\source\repos\BancaApi\BancaModel\bin\Debug\net7.0\BancaModel.deps.json
+C:\Users\amegna\source\repos\BancaApi\BancaModel\bin\Debug\net7.0\BancaModel.runtimeconfig.json
+C:\Users\amegna\source\repos\BancaApi\BancaModel\bin\Debug\net7.0\BancaModel.dll
+C:\Users\amegna\source\repos\BancaApi\BancaModel\bin\Debug\net7.0\BancaModel.pdb
+C:\Users\amegna\source\repos\BancaApi\BancaModel\obj\Debug\net7.0\BancaModel.csproj.AssemblyReference.cache
+C:\Users\amegna\source\repos\BancaApi\BancaModel\obj\Debug\net7.0\BancaModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amegna\source\repos\BancaApi\BancaModel\obj\Debug\net7.0\BancaModel.AssemblyInfoInputs.cache
+C:\Users\amegna\source\repos\BancaApi\BancaModel\obj\Debug\net7.0\BancaModel.AssemblyInfo.cs
+C:\Users\amegna\source\repos\BancaApi\BancaModel\obj\Debug\net7.0\BancaModel.csproj.CoreCompileInputs.cache
+C:\Users\amegna\source\repos\BancaApi\BancaModel\obj\Debug\net7.0\BancaModel.dll
+C:\Users\amegna\source\repos\BancaApi\BancaModel\obj\Debug\net7.0\refint\BancaModel.dll
+C:\Users\amegna\source\repos\BancaApi\BancaModel\obj\Debug\net7.0\BancaModel.pdb
+C:\Users\amegna\source\repos\BancaApi\BancaModel\obj\Debug\net7.0\BancaModel.genruntimeconfig.cache
+C:\Users\amegna\source\repos\BancaApi\BancaModel\obj\Debug\net7.0\ref\BancaModel.dll

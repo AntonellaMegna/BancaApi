@@ -1,0 +1,185 @@
+[11-10-2023 07:19:37 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][11-10-2023 07:19:37 [WRN] No XML encryptor configured. Key {9f28b4ca-e7f8-4d90-ba83-7188bcedf778} may be persisted to storage in unencrypted form.
+][11-10-2023 07:19:37 [INF] Now listening on: https://[::]:443
+][11-10-2023 07:19:37 [INF] Now listening on: http://[::]:80
+][11-10-2023 07:19:37 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 07:19:37 [INF] Hosting environment: Development
+][11-10-2023 07:19:37 [INF] Content root path: /app
+][11-10-2023 09:03:35 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][11-10-2023 09:03:35 [WRN] No XML encryptor configured. Key {f4a8a92f-9165-46d2-b792-005dc1e40dd4} may be persisted to storage in unencrypted form.
+][11-10-2023 09:03:35 [INF] Now listening on: https://[::]:443
+][11-10-2023 09:03:35 [INF] Now listening on: http://[::]:80
+][11-10-2023 09:03:35 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 09:03:35 [INF] Hosting environment: Development
+][11-10-2023 09:03:35 [INF] Content root path: /app
+][11-10-2023 11:03:53 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 11:03:53 [INF] Hosting environment: Development
+][11-10-2023 11:03:53 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 11:04:27 [INF] HTTP POST /api/authcontroller/login responded 200 in 13725.8962 ms
+][11-10-2023 11:05:48 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 11:05:49 [INF] Hosting environment: Development
+][11-10-2023 11:05:49 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 11:06:45 [INF] HTTP POST /api/authcontroller/login responded 200 in 5263.9648 ms
+][11-10-2023 11:13:31 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 11:13:31 [INF] Hosting environment: Development
+][11-10-2023 11:13:31 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 11:13:56 [INF] HTTP POST /api/authcontroller/login responded 200 in 6252.1171 ms
+][11-10-2023 11:14:18 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 11:14:18 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 11:14:20 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 2831.4625 ms
+][11-10-2023 12:04:58 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 12:04:58 [INF] Hosting environment: Development
+][11-10-2023 12:04:58 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 12:05:24 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 12:05:24 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 12:05:26 [INF] HTTP GET /api/cachecontroller/GetUser responded 200 in 2422.4454 ms
+][11-10-2023 12:06:00 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 12:06:00 [INF] Hosting environment: Development
+][11-10-2023 12:06:00 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 12:06:14 [INF] HTTP GET /api/cachecontroller/GetIdentityUser responded 200 in 409.1898 ms
+][11-10-2023 12:07:16 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 12:07:16 [INF] Hosting environment: Development
+][11-10-2023 12:07:16 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 12:08:36 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 12:08:36 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 12:08:37 [INF] HTTP POST /api/authcontroller/login responded 400 in 1903.8944 ms
+][11-10-2023 12:08:48 [INF] HTTP POST /api/authcontroller/login responded 200 in 2448.7403 ms
+][11-10-2023 12:09:08 [INF] HTTP GET /api/cachecontroller/GetUser responded 200 in 26.9757 ms
+][11-10-2023 12:19:11 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 12:19:11 [INF] Hosting environment: Development
+][11-10-2023 12:19:11 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 12:21:15 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 12:21:15 [INF] Hosting environment: Development
+][11-10-2023 12:21:15 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 12:21:42 [INF] HTTP POST /api/authcontroller/login responded 200 in 7484.7228 ms
+][11-10-2023 16:07:06 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 16:07:06 [INF] Hosting environment: Development
+][11-10-2023 16:07:06 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 16:07:28 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:07:28 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:09:27 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 16:09:27 [INF] Hosting environment: Development
+][11-10-2023 16:09:27 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 16:09:45 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:09:45 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:16:07 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 16:16:08 [INF] Hosting environment: Development
+][11-10-2023 16:16:08 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 16:16:26 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:16:26 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:16:30 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 4727.3276 ms
+][11-10-2023 16:16:59 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 16:16:59 [INF] Hosting environment: Development
+][11-10-2023 16:16:59 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 16:18:11 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:18:11 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:21:30 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 16:21:30 [INF] Hosting environment: Development
+][11-10-2023 16:21:30 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 16:22:17 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:22:17 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:23:50 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 16:23:50 [INF] Hosting environment: Development
+][11-10-2023 16:23:50 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 16:24:07 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:24:07 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:26:54 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 16:26:54 [INF] Hosting environment: Development
+][11-10-2023 16:26:55 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 16:27:16 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:27:16 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:29:27 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 16:29:27 [INF] Hosting environment: Development
+][11-10-2023 16:29:27 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 16:29:45 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:29:45 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 16:29:48 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 3983.9081 ms
+][11-10-2023 17:33:56 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 17:33:56 [INF] Hosting environment: Development
+][11-10-2023 17:33:56 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 17:34:21 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 17:34:21 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 17:34:26 [ERR] new exception arrived: System.ArgumentException
+System.ArgumentException: IDX10703: Cannot create a 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', key length is zero.
+   at Microsoft.IdentityModel.Tokens.SymmetricSecurityKey..ctor(Byte[] key)
+   at Banca.DataAccess.Repository.JwtTokenGeneratorRepository.GenerateToken(String username, String role, String email) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\JwtTokenGeneratorRepository.cs:line 54
+   at Banca.DataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\IdentityUserRapository.cs:line 134
+   at Banca.Service.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.Service\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][11-10-2023 17:34:26 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 6362.4823 ms
+][11-10-2023 17:42:12 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 17:42:12 [INF] Hosting environment: Development
+][11-10-2023 17:42:12 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 17:42:40 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 17:42:40 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 17:42:43 [ERR] new exception arrived: System.ArgumentException
+System.ArgumentException: IDX10703: Cannot create a 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', key length is zero.
+   at Microsoft.IdentityModel.Tokens.SymmetricSecurityKey..ctor(Byte[] key)
+   at Banca.DataAccess.Repository.JwtTokenGeneratorRepository.GenerateToken(String username, String role, String email) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\JwtTokenGeneratorRepository.cs:line 54
+   at Banca.DataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\IdentityUserRapository.cs:line 134
+   at Banca.Service.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.Service\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][11-10-2023 17:42:43 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 5833.4311 ms
+][11-10-2023 17:43:58 [INF] HTTP GET /api/cachecontroller/GetIdentityUser responded 200 in 73.9879 ms
+][11-10-2023 17:45:08 [ERR] new exception arrived: System.ArgumentException
+System.ArgumentException: IDX10703: Cannot create a 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', key length is zero.
+   at Microsoft.IdentityModel.Tokens.SymmetricSecurityKey..ctor(Byte[] key)
+   at Banca.DataAccess.Repository.JwtTokenGeneratorRepository.GenerateToken(String username, String role, String email) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\JwtTokenGeneratorRepository.cs:line 54
+   at Banca.DataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\IdentityUserRapository.cs:line 134
+   at Banca.Service.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.Service\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][11-10-2023 17:45:08 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 800.4464 ms
+][11-10-2023 17:45:58 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 17:45:58 [INF] Hosting environment: Development
+][11-10-2023 17:45:58 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 17:46:20 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 17:46:20 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][11-10-2023 17:46:23 [ERR] new exception arrived: System.ArgumentException
+System.ArgumentException: IDX10703: Cannot create a 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', key length is zero.
+   at Microsoft.IdentityModel.Tokens.SymmetricSecurityKey..ctor(Byte[] key)
+   at Banca.DataAccess.Repository.JwtTokenGeneratorRepository.GenerateToken(String username, String role, String email) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\JwtTokenGeneratorRepository.cs:line 54
+   at Banca.DataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\IdentityUserRapository.cs:line 134
+   at Banca.Service.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.Service\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][11-10-2023 17:46:23 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 5278.3769 ms
+][11-10-2023 17:55:15 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 17:55:15 [INF] Hosting environment: Development
+][11-10-2023 17:55:15 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 17:56:04 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 17:56:04 [INF] Hosting environment: Development
+][11-10-2023 17:56:04 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 17:57:02 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 17:57:02 [INF] Hosting environment: Development
+][11-10-2023 17:57:02 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][11-10-2023 17:57:39 [INF] Application started. Press Ctrl+C to shut down.
+][11-10-2023 17:57:39 [INF] Hosting environment: Development
+][11-10-2023 17:57:39 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+]

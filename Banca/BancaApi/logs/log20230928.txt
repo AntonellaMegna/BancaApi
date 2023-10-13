@@ -1,0 +1,775 @@
+[28-09-2023 10:50:54 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 10:50:54 [INF] Hosting environment: Development
+][28-09-2023 10:50:54 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 10:51:16 [INF] AlbertoVarriale
+][28-09-2023 10:51:16 [WRN] warn
+][28-09-2023 10:51:16 [ERR] err
+][28-09-2023 10:52:45 [ERR] new exception arrived: System.NullReferenceException
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 48
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 10:52:45 [ERR] HTTP POST /api/authcontroller/login responded 500 in 89960.2692 ms
+][28-09-2023 10:52:48 [INF] AlbertoVarriale
+][28-09-2023 10:52:48 [WRN] warn
+][28-09-2023 10:52:48 [ERR] err
+][28-09-2023 10:53:54 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 10:53:55 [INF] Hosting environment: Development
+][28-09-2023 10:53:55 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 10:54:00 [INF] string
+][28-09-2023 10:54:00 [WRN] warn
+][28-09-2023 10:54:00 [ERR] err
+][28-09-2023 10:55:30 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 10:55:30 [INF] Hosting environment: Development
+][28-09-2023 10:55:30 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 10:55:40 [INF] string
+][28-09-2023 10:55:40 [WRN] warn
+][28-09-2023 10:55:40 [ERR] err
+][28-09-2023 10:56:22 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 10:56:23 [INF] Hosting environment: Development
+][28-09-2023 10:56:23 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 10:56:28 [INF] string
+][28-09-2023 10:56:28 [WRN] warn
+][28-09-2023 10:56:28 [ERR] err
+][28-09-2023 11:35:23 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 11:35:23 [INF] Hosting environment: Development
+][28-09-2023 11:35:23 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 11:36:06 [INF] string
+][28-09-2023 11:36:06 [WRN] warn
+][28-09-2023 11:36:06 [ERR] err
+][28-09-2023 11:38:48 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 11:38:48 [INF] Hosting environment: Development
+][28-09-2023 11:38:48 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 11:38:53 [INF] string
+][28-09-2023 11:38:53 [WRN] warn
+][28-09-2023 11:38:53 [ERR] err
+][28-09-2023 11:39:09 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 55
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 11:39:09 [ERR] HTTP POST /api/authcontroller/login responded 500 in 16355.7594 ms
+][28-09-2023 11:39:34 [INF] AlbertoVarriale
+][28-09-2023 11:39:34 [WRN] warn
+][28-09-2023 11:39:34 [ERR] err
+][28-09-2023 11:39:47 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 55
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 11:39:47 [ERR] HTTP POST /api/authcontroller/login responded 500 in 13167.7042 ms
+][28-09-2023 11:51:03 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 11:51:03 [INF] Hosting environment: Development
+][28-09-2023 11:51:03 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 11:51:09 [INF] string
+][28-09-2023 11:51:09 [WRN] warn
+][28-09-2023 11:51:09 [ERR] err
+][28-09-2023 11:53:26 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 11:53:26 [INF] Hosting environment: Development
+][28-09-2023 11:53:26 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 11:53:31 [INF] string
+][28-09-2023 11:53:31 [WRN] warn
+][28-09-2023 11:53:31 [ERR] err
+][28-09-2023 12:11:48 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:11:48 [INF] Hosting environment: Development
+][28-09-2023 12:11:48 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 12:12:36 [INF] HTTP POST /api/kafkacontroller responded 201 in 771.4045 ms
+][28-09-2023 12:13:01 [INF] string
+][28-09-2023 12:13:01 [WRN] warn
+][28-09-2023 12:13:01 [ERR] err
+][28-09-2023 12:17:19 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:17:19 [INF] Hosting environment: Development
+][28-09-2023 12:17:19 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 12:18:10 [INF] HTTP POST /api/kafkacontroller responded 201 in 1763.1983 ms
+][28-09-2023 12:20:49 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:20:49 [INF] Hosting environment: Development
+][28-09-2023 12:20:49 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 12:20:56 [INF] string
+][28-09-2023 12:20:56 [WRN] warn
+][28-09-2023 12:20:56 [ERR] err
+][28-09-2023 12:22:40 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:22:40 [INF] Hosting environment: Development
+][28-09-2023 12:22:40 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 12:23:43 [INF] string
+][28-09-2023 12:23:43 [WRN] warn
+][28-09-2023 12:23:43 [ERR] err
+][28-09-2023 12:23:59 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 56
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 12:23:59 [ERR] HTTP POST /api/authcontroller/login responded 500 in 16219.3682 ms
+][28-09-2023 12:24:18 [INF] AlbertoVarriale
+][28-09-2023 12:24:18 [WRN] warn
+][28-09-2023 12:24:18 [ERR] err
+][28-09-2023 12:24:31 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 56
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 12:24:31 [ERR] HTTP POST /api/authcontroller/login responded 500 in 12920.6168 ms
+][28-09-2023 12:07:57 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][28-09-2023 12:07:57 [WRN] No XML encryptor configured. Key {a24f499c-e2f2-47dd-9627-1cc40cc63c7b} may be persisted to storage in unencrypted form.
+][28-09-2023 12:07:57 [INF] Now listening on: https://[::]:443
+][28-09-2023 12:07:57 [INF] Now listening on: http://[::]:80
+][28-09-2023 12:07:57 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:07:57 [INF] Hosting environment: Development
+][28-09-2023 12:07:57 [INF] Content root path: /app
+][28-09-2023 12:08:19 [INF] string
+][28-09-2023 12:08:19 [WRN] warn
+][28-09-2023 12:08:19 [ERR] err
+][28-09-2023 12:10:09 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][28-09-2023 12:10:10 [INF] Now listening on: https://[::]:443
+][28-09-2023 12:10:10 [INF] Now listening on: http://[::]:80
+][28-09-2023 12:10:10 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:10:10 [INF] Hosting environment: Development
+][28-09-2023 12:10:10 [INF] Content root path: /app
+][28-09-2023 12:10:17 [INF] string
+][28-09-2023 12:10:17 [WRN] warn
+][28-09-2023 12:10:17 [ERR] err
+][28-09-2023 14:10:51 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 14:10:51 [INF] Hosting environment: Development
+][28-09-2023 14:10:51 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 14:10:57 [INF] string
+][28-09-2023 14:10:57 [WRN] warn
+][28-09-2023 14:10:57 [ERR] err
+][28-09-2023 14:11:11 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 56
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:11:11 [ERR] HTTP POST /api/authcontroller/login responded 500 in 13685.9140 ms
+][28-09-2023 14:11:52 [INF] string
+][28-09-2023 14:11:52 [WRN] warn
+][28-09-2023 14:11:52 [ERR] err
+][28-09-2023 14:12:53 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 56
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:12:53 [ERR] HTTP POST /api/authcontroller/login responded 500 in 60654.5027 ms
+][28-09-2023 14:12:55 [INF] string
+][28-09-2023 14:12:55 [WRN] warn
+][28-09-2023 14:12:55 [ERR] err
+][28-09-2023 14:13:12 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 56
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:13:12 [ERR] HTTP POST /api/authcontroller/login responded 500 in 16545.1217 ms
+][28-09-2023 14:13:39 [ERR] new exception arrived: StackExchange.Redis.RedisConnectionException
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RemoveAsync(String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.Remove[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 50
+   at BancaApi.Controllers.CacheController.Delete(String id) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\CacheController.cs:line 47
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:13:39 [ERR] HTTP DELETE /api/cachecontroller/string responded 500 in 8184.8851 ms
+][28-09-2023 14:15:49 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 14:15:49 [INF] Hosting environment: Development
+][28-09-2023 14:15:49 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 14:16:07 [INF] string
+][28-09-2023 14:16:07 [WRN] warn
+][28-09-2023 14:16:07 [ERR] err
+][28-09-2023 14:16:23 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 57
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:16:23 [ERR] HTTP POST /api/authcontroller/login responded 500 in 16121.2881 ms
+][28-09-2023 14:19:28 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 14:19:28 [INF] Hosting environment: Development
+][28-09-2023 14:19:28 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 14:19:34 [INF] string
+][28-09-2023 14:19:34 [WRN] warn
+][28-09-2023 14:19:34 [ERR] err
+][28-09-2023 14:19:45 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 57
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:19:45 [ERR] HTTP POST /api/authcontroller/login responded 500 in 11447.6579 ms
+][28-09-2023 14:21:09 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 14:21:09 [INF] Hosting environment: Development
+][28-09-2023 14:21:09 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 14:21:18 [INF] string
+][28-09-2023 14:21:18 [WRN] warn
+][28-09-2023 14:21:18 [ERR] err
+][28-09-2023 14:21:30 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 52
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:21:30 [ERR] HTTP POST /api/authcontroller/login responded 500 in 12902.5545 ms
+][28-09-2023 14:21:58 [ERR] new exception arrived: StackExchange.Redis.RedisConnectionException
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.SetAsync(String key, Byte[] value, DistributedCacheEntryOptions options, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.SetData[T](String key, T data) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 28
+   at BancaApi.Controllers.CacheController.Post(User user) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\CacheController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:21:58 [ERR] HTTP POST /api/cachecontroller responded 500 in 8409.4688 ms
+][28-09-2023 14:22:57 [ERR] new exception arrived: StackExchange.Redis.RedisConnectionException
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.SetAsync(String key, Byte[] value, DistributedCacheEntryOptions options, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.SetData[T](String key, T data) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 28
+   at BancaApi.Controllers.CacheController.Post(User user) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\CacheController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:22:57 [ERR] HTTP POST /api/cachecontroller responded 500 in 8315.2729 ms
+][28-09-2023 14:23:55 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 14:23:55 [INF] Hosting environment: Development
+][28-09-2023 14:23:55 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 14:24:03 [ERR] new exception arrived: System.InvalidOperationException
+System.InvalidOperationException: Unable to resolve service for type 'BancaApi.Service.KafKa.IKafKaProducers' while attempting to activate 'BancaApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:24:03 [ERR] HTTP POST /api/authcontroller/login responded 500 in 355.5528 ms
+][28-09-2023 14:24:14 [ERR] new exception arrived: System.InvalidOperationException
+System.InvalidOperationException: Unable to resolve service for type 'BancaApi.Service.KafKa.IKafKaProducers' while attempting to activate 'BancaApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:24:14 [ERR] HTTP POST /api/authcontroller/login responded 500 in 12.5629 ms
+][28-09-2023 12:24:32 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][28-09-2023 12:24:32 [INF] Now listening on: https://[::]:443
+][28-09-2023 12:24:32 [INF] Now listening on: http://[::]:80
+][28-09-2023 12:24:32 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:24:32 [INF] Hosting environment: Development
+][28-09-2023 12:24:32 [INF] Content root path: /app
+][28-09-2023 12:24:57 [INF] HTTP POST /api/cachecontroller responded 200 in 510.5218 ms
+][28-09-2023 12:25:31 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][28-09-2023 12:25:31 [INF] Now listening on: https://[::]:443
+][28-09-2023 12:25:31 [INF] Now listening on: http://[::]:80
+][28-09-2023 12:25:31 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:25:31 [INF] Hosting environment: Development
+][28-09-2023 12:25:31 [INF] Content root path: /app
+][28-09-2023 14:26:37 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 14:26:37 [INF] Hosting environment: Development
+][28-09-2023 14:26:37 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 14:26:53 [INF] HTTP POST /api/kafkacontroller responded 201 in 1500.7875 ms
+][28-09-2023 14:28:32 [INF] HTTP POST /api/kafkacontroller responded 201 in 161.8083 ms
+][28-09-2023 14:28:48 [INF] string
+][28-09-2023 14:28:48 [WRN] warn
+][28-09-2023 14:28:48 [ERR] err
+][28-09-2023 14:29:02 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 52
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:29:02 [ERR] HTTP POST /api/authcontroller/login responded 500 in 13838.4560 ms
+][28-09-2023 14:29:46 [INF] string
+][28-09-2023 14:29:46 [WRN] warn
+][28-09-2023 14:29:46 [ERR] err
+][28-09-2023 14:29:58 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 52
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:29:58 [ERR] HTTP POST /api/authcontroller/login responded 500 in 12170.2995 ms
+][28-09-2023 14:35:24 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 14:35:24 [INF] Hosting environment: Development
+][28-09-2023 14:35:24 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 14:35:52 [ERR] new exception arrived: StackExchange.Redis.RedisConnectionException
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.SetAsync(String key, Byte[] value, DistributedCacheEntryOptions options, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.SetData[T](String key, T data) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 28
+   at BancaApi.Controllers.CacheController.Post(User user) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\CacheController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:35:52 [ERR] HTTP POST /api/cachecontroller responded 500 in 9058.4510 ms
+][28-09-2023 12:37:56 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][28-09-2023 12:37:56 [WRN] No XML encryptor configured. Key {869f4389-5d6f-451d-b293-5cf0dc2d38f1} may be persisted to storage in unencrypted form.
+][28-09-2023 12:37:56 [INF] Now listening on: https://[::]:443
+][28-09-2023 12:37:56 [INF] Now listening on: http://[::]:80
+][28-09-2023 12:37:56 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:37:56 [INF] Hosting environment: Development
+][28-09-2023 12:37:56 [INF] Content root path: /app
+][28-09-2023 12:38:49 [INF] HTTP POST /api/cachecontroller responded 200 in 306.1373 ms
+][28-09-2023 14:40:31 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 14:40:31 [INF] Hosting environment: Development
+][28-09-2023 14:40:31 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 14:40:39 [INF] string
+][28-09-2023 14:40:39 [WRN] warn
+][28-09-2023 14:40:39 [ERR] err
+][28-09-2023 14:41:14 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 55
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:41:14 [ERR] HTTP POST /api/authcontroller/login responded 500 in 34595.0529 ms
+][28-09-2023 14:45:33 [INF] Alber
+][28-09-2023 14:45:33 [WRN] warn
+][28-09-2023 14:45:33 [ERR] err
+][28-09-2023 14:47:30 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 55
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 14:47:30 [ERR] HTTP POST /api/authcontroller/login responded 500 in 117370.8596 ms
+][28-09-2023 12:48:48 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][28-09-2023 12:48:49 [INF] Now listening on: https://[::]:443
+][28-09-2023 12:48:49 [INF] Now listening on: http://[::]:80
+][28-09-2023 12:48:49 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:48:49 [INF] Hosting environment: Development
+][28-09-2023 12:48:49 [INF] Content root path: /app
+][28-09-2023 12:49:51 [INF] string
+][28-09-2023 12:49:51 [WRN] warn
+][28-09-2023 12:49:51 [ERR] err
+][28-09-2023 12:51:24 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][28-09-2023 12:51:24 [INF] Now listening on: https://[::]:443
+][28-09-2023 12:51:24 [INF] Now listening on: http://[::]:80
+][28-09-2023 12:51:24 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 12:51:24 [INF] Hosting environment: Development
+][28-09-2023 12:51:24 [INF] Content root path: /app
+][28-09-2023 12:51:31 [INF] string
+][28-09-2023 12:51:31 [WRN] warn
+][28-09-2023 12:51:31 [ERR] err
+][28-09-2023 12:51:40 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][28-09-2023 12:51:40 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][28-09-2023 12:51:41 [INF] HTTP POST /api/authcontroller/login responded 400 in 9651.0580 ms
+][28-09-2023 12:51:46 [INF] string
+][28-09-2023 12:51:46 [WRN] warn
+][28-09-2023 12:51:46 [ERR] err
+][28-09-2023 12:52:06 [INF] HTTP POST /api/authcontroller/login responded 400 in 20372.7917 ms
+][28-09-2023 12:52:17 [INF] string
+][28-09-2023 12:52:17 [WRN] warn
+][28-09-2023 12:52:17 [ERR] err
+][28-09-2023 12:53:03 [INF] HTTP POST /api/authcontroller/login responded 400 in 45587.5418 ms
+][28-09-2023 13:15:54 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][28-09-2023 13:15:54 [INF] Now listening on: https://[::]:443
+][28-09-2023 13:15:54 [INF] Now listening on: http://[::]:80
+][28-09-2023 13:15:54 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 13:15:54 [INF] Hosting environment: Development
+][28-09-2023 13:15:54 [INF] Content root path: /app
+][28-09-2023 13:17:20 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][28-09-2023 13:17:20 [INF] Now listening on: https://[::]:443
+][28-09-2023 13:17:20 [INF] Now listening on: http://[::]:80
+][28-09-2023 13:17:20 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 13:17:20 [INF] Hosting environment: Development
+][28-09-2023 13:17:20 [INF] Content root path: /app
+][28-09-2023 13:17:28 [INF] string
+][28-09-2023 13:17:28 [WRN] warn
+][28-09-2023 13:17:28 [ERR] err
+][28-09-2023 13:17:38 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][28-09-2023 13:17:38 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][28-09-2023 13:17:38 [INF] HTTP POST /api/authcontroller/login responded 400 in 10427.9208 ms
+][28-09-2023 13:17:41 [INF] string
+][28-09-2023 13:17:41 [WRN] warn
+][28-09-2023 13:17:41 [ERR] err
+][28-09-2023 13:17:55 [INF] HTTP POST /api/authcontroller/login responded 400 in 13330.4699 ms
+][28-09-2023 13:18:11 [INF] AlbertoVarriale
+][28-09-2023 13:18:11 [WRN] warn
+][28-09-2023 13:18:11 [ERR] err
+][28-09-2023 13:18:18 [INF] HTTP POST /api/authcontroller/login responded 200 in 6298.6966 ms
+][28-09-2023 13:18:20 [INF] AlbertoVarriale
+][28-09-2023 13:18:20 [WRN] warn
+][28-09-2023 13:18:20 [ERR] err
+][28-09-2023 13:18:50 [INF] HTTP POST /api/authcontroller/login responded 200 in 30402.6888 ms
+][28-09-2023 13:19:33 [INF] HTTP GET /api/cachecontroller responded 200 in 25403.3298 ms
+][28-09-2023 13:20:39 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][28-09-2023 13:20:40 [INF] Now listening on: https://[::]:443
+][28-09-2023 13:20:40 [INF] Now listening on: http://[::]:80
+][28-09-2023 13:20:40 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 13:20:40 [INF] Hosting environment: Development
+][28-09-2023 13:20:40 [INF] Content root path: /app
+][28-09-2023 13:21:44 [INF] AlbertoVarriale
+][28-09-2023 13:21:44 [WRN] warn
+][28-09-2023 13:21:44 [ERR] err
+][28-09-2023 13:22:17 [INF] HTTP POST /api/authcontroller/login responded 200 in 33650.5295 ms
+][28-09-2023 13:22:38 [INF] HTTP GET /api/cachecontroller responded 200 in 2668.9545 ms
+][28-09-2023 13:27:33 [INF] HTTP GET /api/cachecontroller responded 200 in 8696.7077 ms
+][28-09-2023 13:27:41 [INF] HTTP GET /api/cachecontroller responded 204 in 3.7698 ms
+][28-09-2023 15:29:25 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 15:29:25 [INF] Hosting environment: Development
+][28-09-2023 15:29:25 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 15:29:32 [INF] string
+][28-09-2023 15:29:32 [WRN] warn
+][28-09-2023 15:29:32 [ERR] err
+][28-09-2023 15:29:43 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 55
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 15:29:43 [ERR] HTTP POST /api/authcontroller/login responded 500 in 11079.6808 ms
+][28-09-2023 15:30:46 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 15:30:46 [INF] Hosting environment: Development
+][28-09-2023 15:30:46 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 15:31:10 [ERR] new exception arrived: StackExchange.Redis.RedisConnectionException
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.SetAsync(String key, Byte[] value, DistributedCacheEntryOptions options, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.SetData[T](String key, T data) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 28
+   at BancaApi.Controllers.CacheController.Post(User user) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\CacheController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 15:31:10 [ERR] HTTP POST /api/cachecontroller responded 500 in 8653.7324 ms
+][28-09-2023 15:35:55 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 15:35:55 [INF] Hosting environment: Development
+][28-09-2023 15:35:55 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 15:36:09 [INF] HTTP POST /api/cachecontroller responded 200 in 396.8031 ms
+][28-09-2023 15:36:35 [INF] string
+][28-09-2023 15:36:35 [WRN] warn
+][28-09-2023 15:36:35 [ERR] err
+][28-09-2023 15:36:43 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 128
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 15:36:43 [ERR] HTTP POST /api/authcontroller/login responded 500 in 7655.7373 ms
+][28-09-2023 15:37:18 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 15:37:18 [INF] Hosting environment: Development
+][28-09-2023 15:37:18 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 15:37:33 [INF] AlbertoVarriale
+][28-09-2023 15:37:33 [WRN] warn
+][28-09-2023 15:37:33 [ERR] err
+][28-09-2023 15:37:38 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][28-09-2023 15:37:38 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][28-09-2023 15:37:41 [INF] HTTP POST /api/authcontroller/login responded 200 in 7985.3264 ms
+][28-09-2023 15:47:39 [INF] fiord
+][28-09-2023 15:47:39 [WRN] warn
+][28-09-2023 15:47:39 [ERR] err
+][28-09-2023 15:47:42 [INF] HTTP POST /api/authcontroller/login responded 400 in 2709.0319 ms
+][28-09-2023 16:28:49 [INF] Application started. Press Ctrl+C to shut down.
+][28-09-2023 16:28:49 [INF] Hosting environment: Development
+][28-09-2023 16:28:49 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][28-09-2023 16:29:02 [INF] HTTP POST /api/kafkacontroller responded 201 in 1647.2827 ms
+][28-09-2023 16:29:33 [INF] string
+][28-09-2023 16:29:33 [WRN] warn
+][28-09-2023 16:29:33 [ERR] err
+][28-09-2023 16:29:41 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaApi.Models.DTO.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Models\DTO\HashPwd.cs:line 18
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 128
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][28-09-2023 16:29:41 [ERR] HTTP POST /api/authcontroller/login responded 500 in 8218.6946 ms
+][28-09-2023 16:30:13 [INF] musica
+][28-09-2023 16:30:13 [WRN] warn
+][28-09-2023 16:30:13 [ERR] err
+][28-09-2023 16:30:13 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][28-09-2023 16:30:13 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][28-09-2023 16:30:15 [INF] HTTP POST /api/authcontroller/login responded 400 in 1788.4558 ms
+]

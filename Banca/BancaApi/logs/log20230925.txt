@@ -1,0 +1,32 @@
+[25-09-2023 15:34:02 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][25-09-2023 15:34:03 [INF] Now listening on: https://[::]:443
+][25-09-2023 15:34:03 [INF] Now listening on: http://[::]:80
+][25-09-2023 15:34:03 [INF] Application started. Press Ctrl+C to shut down.
+][25-09-2023 15:34:03 [INF] Hosting environment: Development
+][25-09-2023 15:34:03 [INF] Content root path: /app
+][25-09-2023 15:35:30 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][25-09-2023 15:35:30 [INF] Now listening on: https://[::]:443
+][25-09-2023 15:35:30 [INF] Now listening on: http://[::]:80
+][25-09-2023 15:35:30 [INF] Application started. Press Ctrl+C to shut down.
+][25-09-2023 15:35:30 [INF] Hosting environment: Development
+][25-09-2023 15:35:30 [INF] Content root path: /app
+][25-09-2023 15:37:41 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][25-09-2023 15:37:42 [WRN] No XML encryptor configured. Key {0c122fb3-f287-44d6-9874-68332e909ef4} may be persisted to storage in unencrypted form.
+][25-09-2023 15:37:42 [INF] Now listening on: https://[::]:443
+][25-09-2023 15:37:42 [INF] Now listening on: http://[::]:80
+][25-09-2023 15:37:42 [INF] Application started. Press Ctrl+C to shut down.
+][25-09-2023 15:37:42 [INF] Hosting environment: Development
+][25-09-2023 15:37:42 [INF] Content root path: /app
+][25-09-2023 15:37:59 [INF] string
+][25-09-2023 15:37:59 [WRN] warn
+][25-09-2023 15:37:59 [ERR] err
+][25-09-2023 15:38:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][25-09-2023 15:38:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][25-09-2023 15:38:02 [INF] HTTP POST /api/authcontroller/login responded 400 in 3216.0018 ms
+][25-09-2023 15:42:05 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][25-09-2023 15:42:05 [INF] Now listening on: https://[::]:443
+][25-09-2023 15:42:05 [INF] Now listening on: http://[::]:80
+][25-09-2023 15:42:05 [INF] Application started. Press Ctrl+C to shut down.
+][25-09-2023 15:42:05 [INF] Hosting environment: Development
+][25-09-2023 15:42:05 [INF] Content root path: /app
+]

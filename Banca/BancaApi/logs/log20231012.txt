@@ -1,0 +1,384 @@
+[12-10-2023 09:06:57 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:06:57 [INF] Hosting environment: Development
+][12-10-2023 09:06:57 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 09:08:04 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:08:04 [INF] Hosting environment: Development
+][12-10-2023 09:08:04 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 09:09:26 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:09:26 [INF] Hosting environment: Development
+][12-10-2023 09:09:26 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 09:11:02 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:11:02 [INF] Hosting environment: Development
+][12-10-2023 09:11:02 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 07:38:29 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][12-10-2023 07:38:29 [WRN] No XML encryptor configured. Key {7c160270-6234-43d1-89c6-089f8de0f508} may be persisted to storage in unencrypted form.
+][12-10-2023 07:38:30 [INF] Now listening on: https://[::]:443
+][12-10-2023 07:38:30 [INF] Now listening on: http://[::]:80
+][12-10-2023 07:38:30 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 07:38:30 [INF] Hosting environment: Development
+][12-10-2023 07:38:30 [INF] Content root path: /app
+][12-10-2023 09:39:09 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:39:09 [INF] Hosting environment: Development
+][12-10-2023 09:39:09 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 09:39:29 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 09:39:29 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 09:39:55 [ERR] new exception arrived: System.ArgumentException
+System.ArgumentException: IDX10703: Cannot create a 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', key length is zero.
+   at Microsoft.IdentityModel.Tokens.SymmetricSecurityKey..ctor(Byte[] key)
+   at Banca.DataAccess.Repository.JwtTokenGeneratorRepository.GenerateToken(String username, String role, String email) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\JwtTokenGeneratorRepository.cs:line 54
+   at Banca.DataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\IdentityUserRapository.cs:line 134
+   at Banca.Service.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.Service\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 09:39:55 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 27509.9968 ms
+][12-10-2023 09:42:43 [ERR] new exception arrived: System.ArgumentException
+System.ArgumentException: IDX10703: Cannot create a 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', key length is zero.
+   at Microsoft.IdentityModel.Tokens.SymmetricSecurityKey..ctor(Byte[] key)
+   at Banca.DataAccess.Repository.JwtTokenGeneratorRepository.GenerateToken(String username, String role, String email) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\JwtTokenGeneratorRepository.cs:line 54
+   at Banca.DataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\IdentityUserRapository.cs:line 134
+   at Banca.Service.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.Service\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 09:42:43 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 147633.0049 ms
+][12-10-2023 09:51:21 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:51:21 [INF] Hosting environment: Development
+][12-10-2023 09:51:21 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 09:51:47 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 09:51:47 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 09:52:17 [ERR] new exception arrived: System.ArgumentException
+System.ArgumentException: IDX10703: Cannot create a 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', key length is zero.
+   at Microsoft.IdentityModel.Tokens.SymmetricSecurityKey..ctor(Byte[] key)
+   at Banca.DataAccess.Repository.JwtTokenGeneratorRepository.GenerateToken(String username, String role, String email) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\JwtTokenGeneratorRepository.cs:line 54
+   at Banca.DataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\IdentityUserRapository.cs:line 134
+   at Banca.Service.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.Service\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 09:52:17 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 31168.7507 ms
+][12-10-2023 09:56:54 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:56:55 [INF] Hosting environment: Development
+][12-10-2023 09:56:55 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 09:57:14 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 09:57:14 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 09:58:36 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:58:36 [INF] Hosting environment: Development
+][12-10-2023 09:58:36 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 09:58:55 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 09:58:55 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 10:01:01 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 10:01:01 [INF] Hosting environment: Development
+][12-10-2023 10:01:01 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 10:01:19 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 10:01:19 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 10:02:00 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 10:02:00 [INF] Hosting environment: Development
+][12-10-2023 10:02:00 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 10:02:20 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 10:02:20 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 10:04:10 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 10:04:10 [INF] Hosting environment: Development
+][12-10-2023 10:04:10 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 10:04:28 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 10:04:28 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 10:04:41 [ERR] new exception arrived: System.ArgumentException
+System.ArgumentException: IDX10703: Cannot create a 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', key length is zero.
+   at Microsoft.IdentityModel.Tokens.SymmetricSecurityKey..ctor(Byte[] key)
+   at Banca.DataAccess.Repository.JwtTokenGeneratorRepository.GenerateToken(String username, String role, String email) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\JwtTokenGeneratorRepository.cs:line 54
+   at Banca.DataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\IdentityUserRapository.cs:line 134
+   at Banca.Service.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.Service\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 10:04:41 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 14618.1947 ms
+][12-10-2023 10:08:43 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 10:08:43 [INF] Hosting environment: Development
+][12-10-2023 10:08:43 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 10:09:08 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 10:09:08 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 10:09:21 [ERR] new exception arrived: System.ArgumentException
+System.ArgumentException: IDX10703: Cannot create a 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', key length is zero.
+   at Microsoft.IdentityModel.Tokens.SymmetricSecurityKey..ctor(Byte[] key)
+   at Banca.DataAccess.Repository.JwtTokenGeneratorRepository.GenerateToken(String username, String role, String email) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\JwtTokenGeneratorRepository.cs:line 54
+   at Banca.DataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.DataAccess\Repository\IdentityUserRapository.cs:line 134
+   at Banca.Service.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca.Service\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 10:09:21 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 14018.9477 ms
+][12-10-2023 10:11:54 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 10:11:54 [INF] Hosting environment: Development
+][12-10-2023 10:11:54 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 10:12:15 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 10:12:15 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 11:15:32 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 11:15:33 [INF] Hosting environment: Development
+][12-10-2023 11:15:33 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 11:16:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 11:16:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 09:18:52 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][12-10-2023 09:18:52 [WRN] No XML encryptor configured. Key {55497ada-84fc-46a9-8516-df7caeadda40} may be persisted to storage in unencrypted form.
+][12-10-2023 09:18:52 [INF] Now listening on: https://[::]:443
+][12-10-2023 09:18:52 [INF] Now listening on: http://[::]:80
+][12-10-2023 09:18:52 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:18:52 [INF] Hosting environment: Development
+][12-10-2023 09:18:52 [INF] Content root path: /app
+][12-10-2023 09:19:39 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.6.122.38350, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: 127.0.0.1:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: Kafka(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=8,Max=32767), POOL: (Threads=8,QueuedItems=0,CompletedItems=408,Timers=13), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts))
+ ---> StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.6.122.38350, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: 127.0.0.1:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: Kafka(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=8,Max=32767), POOL: (Threads=8,QueuedItems=0,CompletedItems=408,Timers=13), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.6.122.38350
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at RedisCache.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\RedisCache\Service\RedisP.cs:line 36
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaDataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\IdentityUserRapository.cs:line 47
+   at BancaService.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 09:19:39 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 12241.4300 ms
+][12-10-2023 09:20:44 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.6.122.38350, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 2, serverEndpoint: 127.0.0.1:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: Kafka(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=8,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=1219,Timers=13), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts))
+ ---> StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.6.122.38350, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 2, serverEndpoint: 127.0.0.1:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: Kafka(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=8,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=1219,Timers=13), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.6.122.38350
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at RedisCache.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\RedisCache\Service\RedisP.cs:line 36
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaDataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\IdentityUserRapository.cs:line 47
+   at BancaService.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 09:20:44 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 6067.2966 ms
+][12-10-2023 09:21:01 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][12-10-2023 09:21:02 [INF] Now listening on: https://[::]:443
+][12-10-2023 09:21:02 [INF] Now listening on: http://[::]:80
+][12-10-2023 09:21:02 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:21:02 [INF] Hosting environment: Development
+][12-10-2023 09:21:02 [INF] Content root path: /app
+][12-10-2023 09:21:43 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.6.122.38350, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: 127.0.0.1:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: Kafka(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=8,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=211,Timers=14), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts))
+ ---> StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.6.122.38350, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: 127.0.0.1:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: Kafka(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=8,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=211,Timers=14), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.6.122.38350
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at RedisCache.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\RedisCache\Service\RedisP.cs:line 36
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaDataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\IdentityUserRapository.cs:line 47
+   at BancaService.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 09:21:43 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 16582.5973 ms
+][12-10-2023 09:46:48 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][12-10-2023 09:46:48 [WRN] No XML encryptor configured. Key {b4589e3f-36ea-4da1-9ad4-68a0c805052b} may be persisted to storage in unencrypted form.
+][12-10-2023 09:46:49 [INF] Now listening on: https://[::]:443
+][12-10-2023 09:46:49 [INF] Now listening on: http://[::]:80
+][12-10-2023 09:46:49 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 09:46:49 [INF] Hosting environment: Development
+][12-10-2023 09:46:49 [INF] Content root path: /app
+][12-10-2023 09:47:23 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Redis_Cache.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Redis_Cache\Service\RedisP.cs:line 36
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaDataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\IdentityUserRapository.cs:line 47
+   at BancaService.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 09:47:23 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 11140.9782 ms
+][12-10-2023 11:49:49 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 11:49:49 [INF] Hosting environment: Development
+][12-10-2023 11:49:49 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 11:50:07 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 11:50:07 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 11:51:54 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 107862.5071 ms
+][12-10-2023 11:53:41 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 3148.9924 ms
+][12-10-2023 11:54:04 [INF] HTTP GET /api/cachecontroller/GetIdentityUser responded 200 in 39.4319 ms
+][12-10-2023 11:54:35 [INF] HTTP POST /api/authcontroller/login responded 200 in 5348.6484 ms
+][12-10-2023 10:04:37 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][12-10-2023 10:04:37 [WRN] No XML encryptor configured. Key {31f549a1-0b9a-4560-bfbb-06d225eada61} may be persisted to storage in unencrypted form.
+][12-10-2023 10:04:38 [INF] Now listening on: https://[::]:443
+][12-10-2023 10:04:38 [INF] Now listening on: http://[::]:80
+][12-10-2023 10:04:38 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 10:04:38 [INF] Hosting environment: Development
+][12-10-2023 10:04:38 [INF] Content root path: /app
+][12-10-2023 10:06:00 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Redis_Cache.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Redis_Cache\Service\RedisP.cs:line 36
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 51
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 10:06:00 [ERR] HTTP POST /api/authcontroller/login responded 500 in 12061.4557 ms
+][12-10-2023 10:06:30 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Redis_Cache.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Redis_Cache\Service\RedisP.cs:line 36
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 51
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 10:06:30 [ERR] HTTP POST /api/authcontroller/login responded 500 in 5189.8863 ms
+][12-10-2023 12:06:54 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 12:06:54 [INF] Hosting environment: Development
+][12-10-2023 12:06:54 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 12:08:05 [INF] HTTP POST /api/authcontroller/login responded 200 in 10844.4480 ms
+][12-10-2023 12:10:01 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 12:10:01 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 12:10:03 [INF] HTTP GET /api/corrcontroller/Movimenti responded 200 in 2327.7393 ms
+][12-10-2023 14:33:05 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 14:33:05 [INF] Hosting environment: Development
+][12-10-2023 14:33:05 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 14:34:32 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 14:34:32 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 14:34:38 [INF] HTTP POST /api/authcontroller/login responded 200 in 6725.8124 ms
+][12-10-2023 14:36:08 [INF] HTTP GET /api/cachecontroller/GetUser responded 200 in 69.4440 ms
+][12-10-2023 14:36:29 [INF] HTTP POST /api/corrcontroller/Movimento responded 200 in 369.7397 ms
+][12-10-2023 14:36:36 [INF] HTTP POST /api/corrcontroller/Movimento responded 200 in 45.2305 ms
+][12-10-2023 15:25:18 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 15:25:18 [INF] Hosting environment: Development
+][12-10-2023 15:25:18 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 15:25:45 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 15:25:45 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 15:25:47 [ERR] Invalid Password
+][12-10-2023 15:25:47 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 3048.8032 ms
+][12-10-2023 15:35:20 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 15:35:20 [INF] Hosting environment: Development
+][12-10-2023 15:35:20 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 15:35:48 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 15:35:48 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 15:37:50 [INF] Application started. Press Ctrl+C to shut down.
+][12-10-2023 15:37:50 [INF] Hosting environment: Development
+][12-10-2023 15:37:50 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][12-10-2023 15:38:12 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 15:38:12 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][12-10-2023 15:38:18 [INF] HTTP POST /api/authcontroller/login responded 200 in 6235.6350 ms
+][12-10-2023 15:41:43 [INF] HTTP GET /api/contocontroller/ContoCorrente/585858 responded 200 in 246.0285 ms
+][12-10-2023 15:43:17 [INF] HTTP POST /api/dipcontroller/Correntista responded 200 in 442.5720 ms
+][12-10-2023 15:51:47 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 35590.8397 ms
+][12-10-2023 15:52:28 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 34318.6666 ms
+][12-10-2023 15:54:15 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 19259.9129 ms
+][12-10-2023 15:54:36 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 22.8202 ms
+][12-10-2023 15:54:46 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 4.2296 ms
+][12-10-2023 15:55:16 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 18249.0111 ms
+][12-10-2023 15:55:42 [INF] HTTP GET /api/cachecontroller/GetIdentityUser responded 200 in 35.2113 ms
+][12-10-2023 15:55:50 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 3.9561 ms
+][12-10-2023 15:55:53 [INF] HTTP GET /api/cachecontroller/GetIdentityUser responded 204 in 3.0487 ms
+][12-10-2023 15:56:51 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaDataAccess.Utility.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Utility\HashPwd.cs:line 18
+   at BancaDataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\IdentityUserRapository.cs:line 83
+   at BancaService.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][12-10-2023 15:56:51 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 8145.3387 ms
+]

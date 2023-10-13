@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "yaWaPK2K/QoRxJ6a+pNw6NgxDuamKl73qtuxyGuyoR0si6FF11hWaSfe+syaKL+G23P1wupVfrSk8nmXYq21sQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amegna\\source\\repos\\BancaApi\\Kafka_Producer\\Kafka_Producer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amegna\\.nuget\\packages\\confluent.kafka\\2.2.0\\confluent.kafka.2.2.0.nupkg.sha512",
+    "C:\\Users\\amegna\\.nuget\\packages\\librdkafka.redist\\2.2.0\\librdkafka.redist.2.2.0.nupkg.sha512",
+    "C:\\Users\\amegna\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\amegna\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\amegna\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

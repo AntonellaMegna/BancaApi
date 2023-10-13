@@ -1,0 +1,102 @@
+[27-09-2023 06:36:47 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 06:52:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 07:25:27 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 07:31:04 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 12:12:02 [INF] Application started. Press Ctrl+C to shut down.
+][27-09-2023 12:12:03 [INF] Hosting environment: Development
+][27-09-2023 12:12:03 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][27-09-2023 12:16:10 [INF] string
+][27-09-2023 12:16:10 [WRN] warn
+][27-09-2023 12:16:10 [ERR] err
+][27-09-2023 12:16:18 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 51
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][27-09-2023 12:16:18 [ERR] HTTP POST /api/authcontroller/login responded 500 in 9090.2350 ms
+][27-09-2023 12:16:46 [INF] AlbertoVarriale
+][27-09-2023 12:16:46 [WRN] warn
+][27-09-2023 12:16:46 [ERR] err
+][27-09-2023 12:16:54 [ERR] new exception arrived: System.AggregateException
+System.AggregateException: One or more errors occurred. (It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 609
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BancaApi.Service.Redis.RedisP.GetData[T](String key) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Service\RedisSevice\RedisP.cs:line 37
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 51
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][27-09-2023 12:16:54 [ERR] HTTP POST /api/authcontroller/login responded 500 in 8188.7394 ms
+][27-09-2023 10:19:41 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 10:19:41 [WRN] No XML encryptor configured. Key {78573819-b542-4116-aaf3-ca3e25b13967} may be persisted to storage in unencrypted form.
+][27-09-2023 10:19:41 [INF] Now listening on: https://[::]:443
+][27-09-2023 10:19:41 [INF] Now listening on: http://[::]:80
+][27-09-2023 10:19:41 [INF] Application started. Press Ctrl+C to shut down.
+][27-09-2023 10:19:41 [INF] Hosting environment: Development
+][27-09-2023 10:19:41 [INF] Content root path: /app
+][27-09-2023 10:19:49 [INF] string
+][27-09-2023 10:19:49 [WRN] warn
+][27-09-2023 10:19:49 [ERR] err
+][27-09-2023 10:19:50 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][27-09-2023 10:19:50 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][27-09-2023 10:19:51 [INF] HTTP POST /api/authcontroller/login responded 400 in 2719.6522 ms
+][27-09-2023 10:22:05 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 10:27:05 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 12:05:53 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 13:09:19 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 15:30:00 [INF] Application started. Press Ctrl+C to shut down.
+][27-09-2023 15:30:00 [INF] Hosting environment: Development
+][27-09-2023 15:30:00 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][27-09-2023 15:13:49 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 15:13:49 [INF] Now listening on: https://[::]:443
+][27-09-2023 15:13:49 [INF] Now listening on: http://[::]:80
+][27-09-2023 15:13:49 [INF] Application started. Press Ctrl+C to shut down.
+][27-09-2023 15:13:49 [INF] Hosting environment: Development
+][27-09-2023 15:13:49 [INF] Content root path: /app
+][27-09-2023 17:30:56 [INF] Application started. Press Ctrl+C to shut down.
+][27-09-2023 17:30:56 [INF] Hosting environment: Development
+][27-09-2023 17:30:56 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][27-09-2023 17:40:51 [INF] Application started. Press Ctrl+C to shut down.
+][27-09-2023 17:40:51 [INF] Hosting environment: Development
+][27-09-2023 17:40:51 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][27-09-2023 15:46:39 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][27-09-2023 15:46:39 [WRN] No XML encryptor configured. Key {9b9b8b07-ea47-4c5f-a790-00cc37cc4299} may be persisted to storage in unencrypted form.
+][27-09-2023 15:46:39 [INF] Now listening on: https://[::]:443
+][27-09-2023 15:46:39 [INF] Now listening on: http://[::]:80
+][27-09-2023 15:46:40 [INF] Application started. Press Ctrl+C to shut down.
+][27-09-2023 15:46:40 [INF] Hosting environment: Development
+][27-09-2023 15:46:40 [INF] Content root path: /app
+][27-09-2023 17:48:10 [INF] Application started. Press Ctrl+C to shut down.
+][27-09-2023 17:48:10 [INF] Hosting environment: Development
+][27-09-2023 17:48:10 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+]

@@ -1,0 +1,118 @@
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\BancaApi.deps.json
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\BancaApi.runtimeconfig.json
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\appsettings.Development.json
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\appsettings.json
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\BancaApi.exe
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\BancaApi.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Scrutor.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\amegna\source\repos\BancaApi - Copia\bin\Debug\BancaApi.pdb
+C:\Users\amegna\source\repos\BancaApi - Copia\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\amegna\source\repos\BancaApi - Copia\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\amegna\source\repos\BancaApi - Copia\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\appsettings.Development.json
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\appsettings.json
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\BancaApi.deps.json
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\BancaApi.runtimeconfig.json
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\BancaApi.exe
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\BancaApi.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Scrutor.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\bin\Debug\BancaApi.pdb
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\amegna\source\repos\BancaApi\gitclone\Banca\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\amegna\source\repos\BancaApi\Banca\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\appsettings.Development.json
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\appsettings.json
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Serilog.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaModel.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaService.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Confluent.Kafka.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Serilog.Extensions.Hosting.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaDataAccess.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.Extensions.Identity.Core.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Serilog.AspNetCore.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Serilog.Settings.Configuration.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\StackExchange.Redis.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Newtonsoft.Json.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Serilog.Extensions.Logging.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Scrutor.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Pipelines.Sockets.Unofficial.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaModel.pdb
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaService.pdb
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaDataAccess.pdb
+C:\Users\amegna\source\repos\BancaApi\Banca\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\amegna\source\repos\BancaApi\Banca\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Redis_Cache.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Redis_Cache.pdb
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Kafka_Producer.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Kafka_Producer.pdb
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApii.deps.json
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApii.runtimeconfig.json
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApii.exe
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApii.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApii.pdb

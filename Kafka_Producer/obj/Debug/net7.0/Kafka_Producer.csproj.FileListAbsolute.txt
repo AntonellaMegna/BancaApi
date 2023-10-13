@@ -1,0 +1,12 @@
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\bin\Debug\net7.0\Kafka_Producer.deps.json
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\bin\Debug\net7.0\Kafka_Producer.dll
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\bin\Debug\net7.0\Kafka_Producer.pdb
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\obj\Debug\net7.0\Kafka_Producer.csproj.AssemblyReference.cache
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\obj\Debug\net7.0\Kafka_Producer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\obj\Debug\net7.0\Kafka_Producer.AssemblyInfoInputs.cache
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\obj\Debug\net7.0\Kafka_Producer.AssemblyInfo.cs
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\obj\Debug\net7.0\Kafka_Producer.csproj.CoreCompileInputs.cache
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\obj\Debug\net7.0\Kafka_Producer.dll
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\obj\Debug\net7.0\refint\Kafka_Producer.dll
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\obj\Debug\net7.0\Kafka_Producer.pdb
+C:\Users\amegna\source\repos\BancaApi\Kafka_Producer\obj\Debug\net7.0\ref\Kafka_Producer.dll
