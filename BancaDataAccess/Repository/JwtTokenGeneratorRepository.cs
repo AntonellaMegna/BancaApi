@@ -1,6 +1,4 @@
-﻿
-
-using Microsoft.Extensions.Options;
+﻿using Microsoft.Extensions.Options;
 using System.Security.Claims;
 using System.Text;
 using BancaModels.Models.DTO;

@@ -1,5 +1,4 @@
-﻿
-using BancaModels.Models.DTO;
+﻿using BancaModels.Models.DTO;
 
 namespace BancaService.Service.IService
 {

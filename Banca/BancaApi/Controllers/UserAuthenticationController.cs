@@ -1,6 +1,4 @@
-﻿
-using Banca.Service.Service.IService;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using BancaModels.Models.DTO;
 using BancaService.Service.IService;
 

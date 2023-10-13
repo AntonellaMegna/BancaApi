@@ -1,5 +1,4 @@
-﻿
-namespace BancaService.Service.IService
+﻿namespace BancaService.Service.IService
 {
     public interface IJwtTokenGenerator 
     {

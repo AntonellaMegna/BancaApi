@@ -1,6 +1,4 @@
-﻿
-
-using BancaService.Service.IService;
+﻿using BancaService.Service.IService;
 using BancaDataAccess.Repository.IRepository;
 using BancaModels.Models;
 

@@ -1,5 +1,4 @@
-﻿
-using BancaModels.Models;
+﻿using BancaModels.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Redis_Cache.Service.IRedisService;

@@ -1,5 +1,4 @@
-﻿
-using BancaDataAccess.Repository.IRepository;
+﻿using BancaDataAccess.Repository.IRepository;
 using BancaService.Service.IService;
  
 

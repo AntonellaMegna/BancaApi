@@ -1,5 +1,4 @@
-﻿
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Kafka_Producer.Service.KafKa;
 using Redis_Cache.Service.IRedisService;
 using BancaDataAccess.Repository.IRepository;
@@ -7,7 +6,7 @@ using BancaModels.Models.DTO;
 using BancaModels.Models;
 using Microsoft.Extensions.Configuration;
 using BancaDataAccess.Utility;
-using System.Runtime.ConstrainedExecution;
+
 
 namespace BancaDataAccess.Repository
 {

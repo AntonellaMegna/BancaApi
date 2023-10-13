@@ -1,5 +1,4 @@
-﻿
-using BancaDataAccess.Data;
+﻿using BancaDataAccess.Data;
 using BancaDataAccess.Repository.IRepository;
 using BancaModels.Models;
 using Microsoft.EntityFrameworkCore;

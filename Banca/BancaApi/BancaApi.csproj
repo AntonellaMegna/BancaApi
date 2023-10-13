@@ -70,8 +70,4 @@
     <ProjectReference Include="..\..\Redis_Cache\Redis_Cache.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Nuova cartella\" />
-  </ItemGroup>
-
 </Project>

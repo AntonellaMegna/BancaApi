@@ -1,5 +1,4 @@
-﻿  
-using Microsoft.AspNetCore.Http.HttpResults;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
 using BancaService.Service.IService;
 using BancaDataAccess.Repository.IRepository;
 using BancaModels.Models;

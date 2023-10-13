@@ -1,8 +1,6 @@
-﻿
-using BancaModels.Models;
+﻿using BancaModels.Models;
 
 namespace BancaService.Service.IService
-
 {
     public interface IContoCorrenteService
     {

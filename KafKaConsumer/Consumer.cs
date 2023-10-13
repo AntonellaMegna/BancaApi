@@ -1,7 +1,5 @@
 ﻿using Confluent.Kafka;
 using KafKaConsumer.Service.IService;
-using System;
-using static Confluent.Kafka.ConfigPropertyNames;
 
 namespace KafKaConsumer
 {
@@ -65,10 +63,6 @@ namespace KafKaConsumer
             return Task.CompletedTask;
 
         }
-
-
-
-
 
         public Task StopAsync(CancellationToken cancellationToken)
         {

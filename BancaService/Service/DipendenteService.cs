@@ -1,5 +1,4 @@
-﻿ 
-using BancaDataAccess.Repository.IRepository;
+﻿using BancaDataAccess.Repository.IRepository;
 using BancaModels.Models;
 using System.Runtime.InteropServices;
 using Banca.Service.Service.IService;

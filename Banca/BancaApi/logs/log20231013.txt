@@ -31,4 +31,11 @@
 ][13-10-2023 12:22:33 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
 ][13-10-2023 12:22:36 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 5383.5127 ms
 ][13-10-2023 12:35:05 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 760.9837 ms
+][13-10-2023 12:23:59 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][13-10-2023 12:23:59 [WRN] No XML encryptor configured. Key {a0e406da-17e1-4df6-b4fd-2e1aa08a8127} may be persisted to storage in unencrypted form.
+][13-10-2023 12:24:00 [INF] Now listening on: https://[::]:443
+][13-10-2023 12:24:00 [INF] Now listening on: http://[::]:80
+][13-10-2023 12:24:00 [INF] Application started. Press Ctrl+C to shut down.
+][13-10-2023 12:24:00 [INF] Hosting environment: Development
+][13-10-2023 12:24:00 [INF] Content root path: /app
 ]

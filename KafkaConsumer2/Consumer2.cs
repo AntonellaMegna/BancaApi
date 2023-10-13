@@ -1,6 +1,4 @@
 ﻿using Confluent.Kafka;
-using Microsoft.Extensions.Configuration;
-using System.Text.RegularExpressions;
 
 namespace KafkaConsumer2
 {
@@ -11,7 +9,7 @@ namespace KafkaConsumer2
         public Consumer2(IConfiguration Configuration )
         {
             _Configuration = Configuration;
-            
+   
         }
 
         public Task StartAsync(CancellationToken cancellationToken)
@@ -42,15 +40,9 @@ namespace KafkaConsumer2
                 }
             }
 
-
-
             return Task.CompletedTask;
 
         }
-
-
-
-
 
         public Task StopAsync(CancellationToken cancellationToken)
         {

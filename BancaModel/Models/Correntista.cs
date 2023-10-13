@@ -1,20 +1,14 @@
-﻿
-using Microsoft.EntityFrameworkCore;
-using System.ComponentModel;
+﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Reflection.Metadata;
-using System.Runtime.Intrinsics.Arm;
-using System.Text.Json.Serialization;
+
 
 namespace BancaModels.Models
 {
     [PrimaryKey(nameof(NcontoCorr), nameof(CF))]
     public class Correntista
     //DateOnly.FromDateTime(DateTime.Now);
-    {
-        
-      
+    {     
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [MaxLength(30)]
         public string NcontoCorr { get; set; }

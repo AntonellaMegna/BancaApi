@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace BancaModels.Models.DTO
-{
+{  
     public class ApplicationUser: IdentityUser
     {
        [Required]
