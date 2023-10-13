@@ -1,0 +1,34 @@
+[13-10-2023 08:02:23 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][13-10-2023 08:02:23 [WRN] No XML encryptor configured. Key {25965981-01ca-4100-b21b-9e7382870ab8} may be persisted to storage in unencrypted form.
+][13-10-2023 08:02:24 [INF] Now listening on: https://[::]:443
+][13-10-2023 08:02:24 [INF] Now listening on: http://[::]:80
+][13-10-2023 08:02:24 [INF] Application started. Press Ctrl+C to shut down.
+][13-10-2023 08:02:24 [INF] Hosting environment: Development
+][13-10-2023 08:02:24 [INF] Content root path: /app
+][13-10-2023 08:29:05 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][13-10-2023 08:29:05 [WRN] No XML encryptor configured. Key {d434c8d8-67ef-46cc-98f6-b45a0bf44553} may be persisted to storage in unencrypted form.
+][13-10-2023 08:29:06 [INF] Now listening on: https://[::]:443
+][13-10-2023 08:29:06 [INF] Now listening on: http://[::]:80
+][13-10-2023 08:29:06 [INF] Application started. Press Ctrl+C to shut down.
+][13-10-2023 08:29:06 [INF] Hosting environment: Development
+][13-10-2023 08:29:06 [INF] Content root path: /app
+][13-10-2023 10:29:58 [INF] Application started. Press Ctrl+C to shut down.
+][13-10-2023 10:29:58 [INF] Hosting environment: Development
+][13-10-2023 10:29:58 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][13-10-2023 10:30:25 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][13-10-2023 10:30:25 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][13-10-2023 10:30:41 [INF] HTTP POST /api/authcontroller/login responded 200 in 18449.7160 ms
+][13-10-2023 12:17:37 [INF] Application started. Press Ctrl+C to shut down.
+][13-10-2023 12:17:37 [INF] Hosting environment: Development
+][13-10-2023 12:17:37 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][13-10-2023 12:18:28 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][13-10-2023 12:18:28 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][13-10-2023 12:18:33 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 7189.9964 ms
+][13-10-2023 12:22:08 [INF] Application started. Press Ctrl+C to shut down.
+][13-10-2023 12:22:08 [INF] Hosting environment: Development
+][13-10-2023 12:22:08 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][13-10-2023 12:22:33 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][13-10-2023 12:22:33 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][13-10-2023 12:22:36 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 5383.5127 ms
+][13-10-2023 12:35:05 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 760.9837 ms
+]

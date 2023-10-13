@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "BancaApii/1.0.0": {
+      "BancaApi/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
           "BancaDataAccess": "1.0.0",
@@ -28,7 +28,7 @@
           "Swashbuckle.AspNetCore.Filters": "7.0.11"
         },
         "runtime": {
-          "BancaApii.dll": {}
+          "BancaApi.dll": {}
         }
       },
       "Azure.Core/1.25.0": {
@@ -3050,7 +3050,7 @@
     }
   },
   "libraries": {
-    "BancaApii/1.0.0": {
+    "BancaApi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

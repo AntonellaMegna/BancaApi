@@ -111,8 +111,8 @@ C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Redis_Cache.dll
 C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Redis_Cache.pdb
 C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Kafka_Producer.dll
 C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\Kafka_Producer.pdb
-C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApii.deps.json
-C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApii.runtimeconfig.json
-C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApii.exe
-C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApii.dll
-C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApii.pdb
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApi.deps.json
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApi.runtimeconfig.json
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApi.exe
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApi.dll
+C:\Users\amegna\source\repos\BancaApi\Banca\bin\Debug\BancaApi.pdb
