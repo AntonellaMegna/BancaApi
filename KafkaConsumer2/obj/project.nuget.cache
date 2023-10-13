@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aCWhjJqIr3SIAUCN68GvK93kNTcMOVvRnheqpfWS5DYcbS2H6QXxyYvnkjfjRv8TGYxxQEZ1th+OXLxgswWRaA==",
+  "dgSpecHash": "CViHVRe80UpmCR/sRvIicjqBSK+V+lQVz5vSYwUQPd8+Gn369OzjfTkNkWJfk0F6+bLzfMTkTiJF9gK9aydQ+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\amegna\\source\\repos\\BancaApi\\KafkaConsumer2\\KafkaConsumer2.csproj",
   "expectedPackageFiles": [

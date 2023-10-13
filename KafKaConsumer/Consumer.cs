@@ -31,7 +31,6 @@ namespace KafKaConsumer
 
                 try
                 {
-                   
                     while (true)
                     {
                         var consumer = consumerBuilder.Consume(cancelToken.Token);
@@ -41,7 +40,6 @@ namespace KafKaConsumer
                         
                         if (indiceLettera != -1)
                         {
-
                              pwd = consumer.Message.Value.Substring(indiceLettera + 1);
 
                              email = consumer.Message.Value.Substring(0, indiceLettera);
@@ -49,17 +47,13 @@ namespace KafKaConsumer
                             //  _sendEmail.SendEmailToAll("a.it", "m@hotmail.com","ciao", "test invio email", true, "m@hotmail.com", ".,"smtp.office365.com",587);
                             _sendEmail.SendEmailToAll(email, email, "Access BanK", "Dear customer, we inform you that access to your current account has been detected  " + DateTime.Now, true, email, pwd, "smtp.libero.it", 587);
 
-
                         }
                         else
                         {
                             Console.WriteLine("Not found");
                         }
-
-                        
-
-                       
-                        Console.WriteLine($"Message: {consumer.Message.Value} received from {consumer.TopicPartitionOffset}");
+                   
+                        Console.WriteLine($"Message: {consumer.Message.Value +" " + DateTime.Now} received from {consumer.TopicPartitionOffset}");
                     }
                 }
                 catch (Exception)
@@ -67,8 +61,6 @@ namespace KafKaConsumer
                     consumerBuilder.Close();
                 }
             }
-
-
 
             return Task.CompletedTask;
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yaWaPK2K/QoRxJ6a+pNw6NgxDuamKl73qtuxyGuyoR0si6FF11hWaSfe+syaKL+G23P1wupVfrSk8nmXYq21sQ==",
+  "dgSpecHash": "4eTxfaX8PdCwhk2qy+AhsIzUBASz4qCgc01UUDbqLSfK0crTfr4+LSrcbwMwM2f1Z3qjxMJg2zgsbFUt131Q2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\amegna\\source\\repos\\BancaApi\\Kafka_Producer\\Kafka_Producer.csproj",
   "expectedPackageFiles": [
