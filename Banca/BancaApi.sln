@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancaApii", "BancaApi\BancaApii.csproj", "{862B2954-F9EE-47E8-A4B6-3A1E27EEFE1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancaApi", "BancaApi\BancaApi.csproj", "{862B2954-F9EE-47E8-A4B6-3A1E27EEFE1E}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4E1A4E65-B634-46EE-AEFD-FC350390A653}"
 EndProject
