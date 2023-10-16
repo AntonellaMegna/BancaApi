@@ -139,8 +139,8 @@ namespace BancaDataAccess.Repository
                 if (signInResult.Succeeded)
                 {
                     var role = _roleManager.FindByIdAsync(user!.Id);
-                   _prod.SendToKafka(user!.Email! + "♥" + model.PinPwd, _config.GetSection("Kafka:Topic1").Value!.Trim());
-                   _prod.SendToKafka(user!.Email! + "♥" + model.PinPwd, _config.GetSection("Kafka:Topic2").Value!.Trim());
+                   _prod.SendToKafka(user.FirstName+" "+ user.Name+":"+ user.Email + "♥" + model.PinPwd, _config.GetSection("Kafka:Topic1").Value!.Trim());
+                   _prod.SendToKafka(user.FirstName + " " + user.Name + ":" + user.Email + "♥" + model.PinPwd, _config.GetSection("Kafka:Topic2").Value!.Trim());
 
                     status.Token= _jwtTokenGenerator.GenerateToken(user!.UserName!,role!.Result!.Name!,user.Email!);
                     status.StatusCode = 1;

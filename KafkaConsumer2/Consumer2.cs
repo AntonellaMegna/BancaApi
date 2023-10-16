@@ -31,7 +31,11 @@ namespace KafkaConsumer2
                     while (true)
                     {
                         var consumer = consumerBuilder.Consume(cancelToken.Token);
-                        Console.WriteLine($"Message: {consumer.Message.Value} received from {consumer.TopicPartitionOffset}");
+                        string name = "";
+                        int indexName = consumer.Message.Value.IndexOf(":");
+                        name = consumer.Message.Value.Substring(0, indexName);
+
+                        Console.WriteLine($"Message: {name} received from {consumer.TopicPartitionOffset}");
                     }
                 }
                 catch (Exception)

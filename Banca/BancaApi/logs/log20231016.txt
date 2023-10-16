@@ -1,0 +1,689 @@
+[16-10-2023 09:43:37 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 09:43:37 [INF] Hosting environment: Development
+][16-10-2023 09:43:37 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 09:46:38 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 09:46:38 [INF] Hosting environment: Development
+][16-10-2023 09:46:38 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 09:47:34 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 09:47:34 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 09:47:37 [ERR] User Inesistente
+][16-10-2023 09:47:37 [INF] HTTP POST /api/authcontroller/login responded 400 in 4006.4889 ms
+][16-10-2023 09:47:48 [ERR] Password errata
+][16-10-2023 09:47:48 [INF] HTTP POST /api/authcontroller/login responded 400 in 719.0735 ms
+][16-10-2023 09:48:02 [INF] HTTP POST /api/authcontroller/login responded 200 in 4472.7580 ms
+][16-10-2023 09:48:18 [INF] HTTP POST /api/authcontroller/login responded 200 in 834.7757 ms
+][16-10-2023 10:05:45 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 10:05:45 [INF] Hosting environment: Development
+][16-10-2023 10:05:45 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 10:06:04 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:06:04 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:06:08 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 5624.7835 ms
+][16-10-2023 10:06:59 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 644.4060 ms
+][16-10-2023 10:08:33 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 10:08:33 [INF] Hosting environment: Development
+][16-10-2023 10:08:33 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 08:09:13 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+][16-10-2023 08:09:13 [WRN] No XML encryptor configured. Key {b2c4f631-62de-461a-b838-a68785c5294c} may be persisted to storage in unencrypted form.
+][16-10-2023 08:09:14 [INF] Now listening on: https://[::]:443
+][16-10-2023 08:09:14 [INF] Now listening on: http://[::]:80
+][16-10-2023 08:09:14 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 08:09:14 [INF] Hosting environment: Development
+][16-10-2023 08:09:14 [INF] Content root path: /app
+][16-10-2023 10:09:38 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 10:09:38 [INF] Hosting environment: Development
+][16-10-2023 10:09:38 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 10:09:56 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:09:56 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:10:02 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 9138.6238 ms
+][16-10-2023 10:11:00 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 591.0599 ms
+][16-10-2023 10:13:03 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 10:13:03 [INF] Hosting environment: Development
+][16-10-2023 10:13:03 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 10:13:38 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:13:38 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:13:41 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 3176.9824 ms
+][16-10-2023 10:14:15 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 566.0785 ms
+][16-10-2023 10:14:17 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 477.1544 ms
+][16-10-2023 10:15:56 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 10:15:56 [INF] Hosting environment: Development
+][16-10-2023 10:15:56 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 10:16:14 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:16:14 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:16:16 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 3197.0006 ms
+][16-10-2023 10:16:54 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 520.1367 ms
+][16-10-2023 10:17:18 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 425.1766 ms
+][16-10-2023 10:18:38 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 10:18:39 [INF] Hosting environment: Development
+][16-10-2023 10:18:39 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 10:19:04 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:19:04 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:19:06 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 2796.5768 ms
+][16-10-2023 10:19:21 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 558.1847 ms
+][16-10-2023 10:19:23 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 404.2961 ms
+][16-10-2023 10:19:54 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 433.6716 ms
+][16-10-2023 10:21:26 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 10:21:26 [INF] Hosting environment: Development
+][16-10-2023 10:21:26 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 10:22:46 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 10:22:46 [INF] Hosting environment: Development
+][16-10-2023 10:22:46 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 10:23:57 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:23:57 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:24:10 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 13707.1495 ms
+][16-10-2023 10:35:59 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 10:35:59 [INF] Hosting environment: Development
+][16-10-2023 10:35:59 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 10:36:30 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:36:30 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:36:37 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 8333.8047 ms
+][16-10-2023 10:50:21 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 10:50:21 [INF] Hosting environment: Development
+][16-10-2023 10:50:21 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 10:50:41 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:50:41 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 10:50:50 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 12252.0300 ms
+][16-10-2023 10:53:27 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 2818.4995 ms
+][16-10-2023 11:18:53 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 11:18:53 [INF] Hosting environment: Development
+][16-10-2023 11:18:53 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 11:19:13 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 11:19:13 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 11:19:21 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 9944.4660 ms
+][16-10-2023 11:20:04 [INF] HTTP POST /api/authcontroller/login responded 200 in 795.7787 ms
+][16-10-2023 11:24:04 [INF] HTTP POST /api/authcontroller/login responded 200 in 724.4028 ms
+][16-10-2023 11:25:30 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 11:25:30 [INF] Hosting environment: Development
+][16-10-2023 11:25:30 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 11:25:55 [INF] HTTP POST /api/authcontroller/login responded 200 in 4427.1128 ms
+][16-10-2023 11:27:04 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 11:27:04 [INF] Hosting environment: Development
+][16-10-2023 11:27:04 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 11:30:39 [INF] HTTP POST /api/authcontroller/login responded 200 in 188033.4112 ms
+][16-10-2023 11:31:06 [ERR] Invalid Password
+][16-10-2023 11:31:06 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 39.9104 ms
+][16-10-2023 11:31:22 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 11:31:22 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 11:31:31 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 9478.8993 ms
+][16-10-2023 11:34:54 [ERR] Invalid Password
+][16-10-2023 11:34:54 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 80057.9986 ms
+][16-10-2023 11:35:39 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 23.2294 ms
+][16-10-2023 11:36:07 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 4000), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LockoutEnabled], [LockoutEnd], [Name], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+][16-10-2023 11:36:07 [ERR] An exception occurred in the database while saving changes for context type 'BancaDataAccess.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violazione del vincolo PRIMARY KEY 'PK_AspNetUsers'. Non è possibile inserire la chiave duplicata nell'oggetto 'dbo.AspNetUsers'. Valore della chiave duplicata: (3).
+L'istruzione è stata interrotta.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:fe26bbef-9cff-405f-b4d1-1e26d4c14d03
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violazione del vincolo PRIMARY KEY 'PK_AspNetUsers'. Non è possibile inserire la chiave duplicata nell'oggetto 'dbo.AspNetUsers'. Valore della chiave duplicata: (3).
+L'istruzione è stata interrotta.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:fe26bbef-9cff-405f-b4d1-1e26d4c14d03
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+][16-10-2023 11:36:07 [ERR] new exception arrived: Microsoft.EntityFrameworkCore.DbUpdateException
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violazione del vincolo PRIMARY KEY 'PK_AspNetUsers'. Non è possibile inserire la chiave duplicata nell'oggetto 'dbo.AspNetUsers'. Valore della chiave duplicata: (3).
+L'istruzione è stata interrotta.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:fe26bbef-9cff-405f-b4d1-1e26d4c14d03
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.CreateAsync(TUser user, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at BancaDataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\IdentityUserRapository.cs:line 76
+   at BancaService.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 11:36:07 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 15924.3964 ms
+][16-10-2023 11:36:36 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 11:36:36 [INF] Hosting environment: Development
+][16-10-2023 11:36:36 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 11:37:12 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 11:37:12 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 11:37:26 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 4000), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LockoutEnabled], [LockoutEnd], [Name], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+][16-10-2023 11:37:26 [ERR] An exception occurred in the database while saving changes for context type 'BancaDataAccess.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violazione del vincolo PRIMARY KEY 'PK_AspNetUsers'. Non è possibile inserire la chiave duplicata nell'oggetto 'dbo.AspNetUsers'. Valore della chiave duplicata: (3).
+L'istruzione è stata interrotta.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d19cf823-0127-469c-802f-b040bc1d6473
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violazione del vincolo PRIMARY KEY 'PK_AspNetUsers'. Non è possibile inserire la chiave duplicata nell'oggetto 'dbo.AspNetUsers'. Valore della chiave duplicata: (3).
+L'istruzione è stata interrotta.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d19cf823-0127-469c-802f-b040bc1d6473
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+][16-10-2023 11:37:26 [ERR] new exception arrived: Microsoft.EntityFrameworkCore.DbUpdateException
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violazione del vincolo PRIMARY KEY 'PK_AspNetUsers'. Non è possibile inserire la chiave duplicata nell'oggetto 'dbo.AspNetUsers'. Valore della chiave duplicata: (3).
+L'istruzione è stata interrotta.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d19cf823-0127-469c-802f-b040bc1d6473
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.CreateAsync(TUser user, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at BancaDataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\IdentityUserRapository.cs:line 76
+   at BancaService.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 11:37:26 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 21201.3758 ms
+][16-10-2023 11:45:42 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 4000), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LockoutEnabled], [LockoutEnd], [Name], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+][16-10-2023 11:45:42 [ERR] An exception occurred in the database while saving changes for context type 'BancaDataAccess.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violazione del vincolo PRIMARY KEY 'PK_AspNetUsers'. Non è possibile inserire la chiave duplicata nell'oggetto 'dbo.AspNetUsers'. Valore della chiave duplicata: (3).
+L'istruzione è stata interrotta.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d19cf823-0127-469c-802f-b040bc1d6473
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violazione del vincolo PRIMARY KEY 'PK_AspNetUsers'. Non è possibile inserire la chiave duplicata nell'oggetto 'dbo.AspNetUsers'. Valore della chiave duplicata: (3).
+L'istruzione è stata interrotta.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d19cf823-0127-469c-802f-b040bc1d6473
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+][16-10-2023 11:45:42 [ERR] new exception arrived: Microsoft.EntityFrameworkCore.DbUpdateException
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violazione del vincolo PRIMARY KEY 'PK_AspNetUsers'. Non è possibile inserire la chiave duplicata nell'oggetto 'dbo.AspNetUsers'. Valore della chiave duplicata: (3).
+L'istruzione è stata interrotta.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d19cf823-0127-469c-802f-b040bc1d6473
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.CreateAsync(TUser user, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at BancaDataAccess.Repository.IdentityUserRapository.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\IdentityUserRapository.cs:line 76
+   at BancaService.Service.IdentityUserService.LoginAsync(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\IdentityUserService.cs:line 19
+   at BancaApi.Controllers.UserAuthenticationController.LoginUser(LoginRequest model) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\UserAuthenticationController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 11:45:42 [ERR] HTTP POST /api/userauthcontroller/LoginUser responded 500 in 442805.4371 ms
+][16-10-2023 11:46:19 [ERR] new exception arrived: System.ArgumentNullException
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaDataAccess.Utility.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Utility\HashPwd.cs:line 18
+   at BancaDataAccess.Repository.AuthRepository.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\AuthRepository.cs:line 122
+   at BancaService.Service.AuthService.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\AuthService.cs:line 22
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 32
+   at lambda_method311(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 11:46:19 [ERR] HTTP POST /api/authcontroller/login responded 500 in 185.3514 ms
+][16-10-2023 11:46:34 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 11:46:34 [INF] Hosting environment: Development
+][16-10-2023 11:46:34 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 11:47:16 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 351.8459 ms
+][16-10-2023 11:47:24 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 24.2076 ms
+][16-10-2023 11:47:39 [ERR] new exception arrived: System.ArgumentNullException
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaDataAccess.Utility.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Utility\HashPwd.cs:line 18
+   at BancaDataAccess.Repository.AuthRepository.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\AuthRepository.cs:line 122
+   at BancaService.Service.AuthService.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\AuthService.cs:line 22
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 32
+   at lambda_method35(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 11:47:39 [ERR] HTTP POST /api/authcontroller/login responded 500 in 250.0285 ms
+][16-10-2023 11:49:15 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 11:49:15 [INF] Hosting environment: Development
+][16-10-2023 11:49:15 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 11:50:00 [ERR] new exception arrived: System.ArgumentNullException
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaDataAccess.Utility.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Utility\HashPwd.cs:line 18
+   at BancaDataAccess.Repository.AuthRepository.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\AuthRepository.cs:line 122
+   at BancaService.Service.AuthService.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\AuthService.cs:line 22
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 32
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 11:50:00 [ERR] HTTP POST /api/authcontroller/login responded 500 in 32166.3117 ms
+][16-10-2023 11:50:11 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 43.1659 ms
+][16-10-2023 11:50:13 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 15.8885 ms
+][16-10-2023 11:50:13 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 9.1235 ms
+][16-10-2023 11:50:14 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 3.4457 ms
+][16-10-2023 11:50:14 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 4.1535 ms
+][16-10-2023 11:50:14 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 3.7046 ms
+][16-10-2023 11:50:14 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 3.2058 ms
+][16-10-2023 11:50:22 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 8.5929 ms
+][16-10-2023 11:50:22 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 3.3914 ms
+][16-10-2023 11:50:22 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 3.8241 ms
+][16-10-2023 11:50:22 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 4.7673 ms
+][16-10-2023 11:50:37 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 11:50:37 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 11:50:40 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaDataAccess.Utility.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Utility\HashPwd.cs:line 18
+   at BancaDataAccess.Repository.AuthRepository.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\AuthRepository.cs:line 56
+   at BancaService.Service.AuthService.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\AuthService.cs:line 22
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 32
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 11:50:40 [ERR] HTTP POST /api/authcontroller/login responded 500 in 12120.8262 ms
+][16-10-2023 11:51:40 [ERR] new exception arrived: BCrypt.Net.SaltParseException
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaDataAccess.Utility.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Utility\HashPwd.cs:line 18
+   at BancaDataAccess.Repository.AuthRepository.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\AuthRepository.cs:line 56
+   at BancaService.Service.AuthService.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\AuthService.cs:line 22
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 32
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 11:51:40 [ERR] HTTP POST /api/authcontroller/login responded 500 in 50427.4940 ms
+][16-10-2023 12:00:06 [INF] HTTP POST /api/authcontroller/login responded 200 in 465178.7419 ms
+][16-10-2023 12:01:05 [ERR] Invalid Password
+][16-10-2023 12:01:05 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 10380.2827 ms
+][16-10-2023 12:01:37 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 145.3393 ms
+][16-10-2023 12:01:48 [INF] HTTP POST /api/authcontroller/login responded 200 in 4930.6862 ms
+][16-10-2023 12:03:56 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 12:03:56 [INF] Hosting environment: Development
+][16-10-2023 12:03:56 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 12:05:23 [ERR] Invalid Password
+][16-10-2023 12:05:25 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 14233.4687 ms
+][16-10-2023 12:06:28 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 39.4284 ms
+][16-10-2023 12:06:36 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 33.6183 ms
+][16-10-2023 12:06:59 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 12:06:59 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 12:08:37 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 106092.5512 ms
+][16-10-2023 12:08:57 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 5.6667 ms
+][16-10-2023 12:09:00 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 15.4902 ms
+][16-10-2023 12:09:01 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 3.4547 ms
+][16-10-2023 12:09:01 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 4.1172 ms
+][16-10-2023 12:10:19 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 12:10:19 [INF] Hosting environment: Development
+][16-10-2023 12:10:19 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 12:10:45 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 12:10:45 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 12:12:43 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 124235.8999 ms
+][16-10-2023 12:12:54 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 3041.3657 ms
+][16-10-2023 12:17:20 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 12:17:20 [INF] Hosting environment: Development
+][16-10-2023 12:17:20 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 12:18:21 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 12:18:21 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 12:18:30 [ERR] User Inesistente
+][16-10-2023 12:18:32 [INF] HTTP POST /api/authcontroller/login responded 400 in 30358.7602 ms
+][16-10-2023 12:19:14 [ERR] new exception arrived: System.ArgumentNullException
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaDataAccess.Utility.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Utility\HashPwd.cs:line 18
+   at BancaDataAccess.Repository.AuthRepository.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\AuthRepository.cs:line 122
+   at BancaService.Service.AuthService.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\AuthService.cs:line 22
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 32
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 12:19:14 [ERR] HTTP POST /api/authcontroller/login responded 500 in 7195.1389 ms
+][16-10-2023 12:19:33 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 26.1847 ms
+][16-10-2023 12:19:42 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 3707.8804 ms
+][16-10-2023 12:25:50 [INF] HTTP POST /api/authcontroller/login responded 200 in 359889.9933 ms
+][16-10-2023 12:26:15 [INF] HTTP POST /api/authcontroller/login responded 200 in 17935.3230 ms
+][16-10-2023 12:27:44 [ERR] Invalid Password
+][16-10-2023 12:27:44 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 8447.5077 ms
+][16-10-2023 12:38:34 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 12:38:34 [INF] Hosting environment: Development
+][16-10-2023 12:38:34 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 12:38:56 [ERR] Invalid Password
+][16-10-2023 12:38:56 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 3690.5023 ms
+][16-10-2023 12:39:11 [ERR] Invalid Password
+][16-10-2023 12:39:11 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 10091.8995 ms
+][16-10-2023 12:39:34 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 41.1148 ms
+][16-10-2023 12:39:40 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 9.7864 ms
+][16-10-2023 12:39:49 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 12:39:49 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 13:39:07 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 3560532.2787 ms
+][16-10-2023 14:02:26 [INF] HTTP POST /api/authcontroller/login responded 200 in 21333.8724 ms
+][16-10-2023 14:03:25 [INF] HTTP POST /api/authcontroller/login responded 200 in 43452.9700 ms
+][16-10-2023 14:04:03 [INF] HTTP POST /api/authcontroller/login responded 200 in 2947.3800 ms
+][16-10-2023 14:06:13 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 14:06:13 [INF] Hosting environment: Development
+][16-10-2023 14:06:13 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 14:07:37 [ERR] new exception arrived: System.ArgumentNullException
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at BancaDataAccess.Repository.JwtTokenGeneratorRepository.GenerateToken(String username, String role, String email) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\JwtTokenGeneratorRepository.cs:line 42
+   at BancaDataAccess.Repository.AuthRepository.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\AuthRepository.cs:line 137
+   at BancaService.Service.AuthService.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\AuthService.cs:line 22
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 32
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 14:07:37 [ERR] HTTP POST /api/authcontroller/login responded 500 in 57103.0683 ms
+][16-10-2023 14:07:49 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 39.4634 ms
+][16-10-2023 14:07:57 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 22.4228 ms
+][16-10-2023 14:08:06 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 7.6247 ms
+][16-10-2023 14:08:13 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 3.9742 ms
+][16-10-2023 14:08:23 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 14:08:23 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 14:08:49 [INF] HTTP POST /api/authcontroller/login responded 200 in 31656.3086 ms
+][16-10-2023 14:09:33 [INF] HTTP POST /api/authcontroller/login responded 200 in 37779.4434 ms
+][16-10-2023 14:09:39 [INF] HTTP POST /api/authcontroller/login responded 200 in 2994.0067 ms
+][16-10-2023 14:11:41 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 14:11:41 [INF] Hosting environment: Development
+][16-10-2023 14:11:41 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 14:12:09 [INF] HTTP POST /api/authcontroller/login responded 200 in 7695.7994 ms
+][16-10-2023 14:13:37 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 52.1586 ms
+][16-10-2023 14:13:45 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 30.9388 ms
+][16-10-2023 14:14:05 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 14:14:05 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 14:14:12 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 10061.1193 ms
+][16-10-2023 14:15:23 [ERR] new exception arrived: System.ArgumentNullException
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaDataAccess.Utility.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Utility\HashPwd.cs:line 18
+   at BancaDataAccess.Repository.AuthRepository.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\AuthRepository.cs:line 122
+   at BancaService.Service.AuthService.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\AuthService.cs:line 22
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 32
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 14:15:23 [ERR] HTTP POST /api/authcontroller/login responded 500 in 2179.9575 ms
+][16-10-2023 14:16:01 [ERR] new exception arrived: System.ArgumentNullException
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at BancaDataAccess.Utility.HashPwd.ValidatePassword(String password, String correctHash) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Utility\HashPwd.cs:line 18
+   at BancaDataAccess.Repository.AuthRepository.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaDataAccess\Repository\AuthRepository.cs:line 122
+   at BancaService.Service.AuthService.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\BancaService\Service\AuthService.cs:line 22
+   at BancaApi.Controllers.AuthController.Login(LoginRequest request) in C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi\Controllers\AuthController.cs:line 32
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+][16-10-2023 14:16:01 [ERR] HTTP POST /api/authcontroller/login responded 500 in 29178.7552 ms
+][16-10-2023 14:16:07 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 4.0160 ms
+][16-10-2023 14:16:10 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 3.2963 ms
+][16-10-2023 14:16:19 [INF] HTTP POST /api/authcontroller/login responded 200 in 4443.0862 ms
+][16-10-2023 14:16:29 [ERR] Invalid Password
+][16-10-2023 14:16:29 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 1819.9834 ms
+][16-10-2023 14:17:38 [ERR] Invalid Password
+][16-10-2023 14:17:38 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 400 in 63133.0254 ms
+][16-10-2023 14:17:49 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 3.6998 ms
+][16-10-2023 14:17:52 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 3.9944 ms
+][16-10-2023 14:17:54 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 4.2216 ms
+][16-10-2023 14:17:54 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 4.1955 ms
+][16-10-2023 14:17:54 [INF] HTTP DELETE /api/cachecontroller/DeleteUser/$Key responded 200 in 2.9062 ms
+][16-10-2023 14:17:57 [INF] HTTP DELETE /api/cachecontroller/DeleteIdentityUser/$Key responded 200 in 3.2273 ms
+][16-10-2023 14:18:58 [INF] Application started. Press Ctrl+C to shut down.
+][16-10-2023 14:18:58 [INF] Hosting environment: Development
+][16-10-2023 14:18:58 [INF] Content root path: C:\Users\amegna\source\repos\BancaApi\Banca\BancaApi
+][16-10-2023 14:19:33 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'ContoCorrente'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 14:19:33 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Movimenti'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+][16-10-2023 14:19:40 [INF] HTTP POST /api/userauthcontroller/LoginUser responded 200 in 9475.5564 ms
+]

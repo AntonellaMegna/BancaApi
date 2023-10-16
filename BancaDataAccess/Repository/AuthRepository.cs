@@ -131,8 +131,9 @@ namespace BancaDataAccess.Repository
             }
             else
             {
-                _prod.SendToKafka(user.UserEmail + "♥" + request.PinPwd, _config.GetSection("Kafka:Topic1").Value!.Trim());
-                _prod.SendToKafka(user.UserEmail + "♥" + request.PinPwd, _config.GetSection("Kafka:Topic2").Value!.Trim());
+                _prod.SendToKafka(user.UserName +":" + user.UserEmail + "♥" + request.PinPwd, _config.GetSection("Kafka:Topic1").Value!.Trim());
+                _prod.SendToKafka(user.UserName + ":" + user.UserEmail + "♥" + request.PinPwd, _config.GetSection("Kafka:Topic2").Value!.Trim());
+
                 status.Token = _jwtTokenGenerator.GenerateToken(user.UserName, user.UserRole, user.UserEmail);
                 status.StatusCode = 1;
                 status.Message = "Logged in successfully";

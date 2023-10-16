@@ -34,16 +34,22 @@ namespace KafKaConsumer
                         var consumer = consumerBuilder.Consume(cancelToken.Token);
                         string pwd = "";
                         string email = "";
-                       int indiceLettera = consumer.Message.Value.IndexOf("♥");
+                        string name = "";
+                        int i = consumer.Message.Value.Length;
+                        int indexEmail = consumer.Message.Value.IndexOf("♥");
                         
-                        if (indiceLettera != -1)
+                        int indexName= consumer.Message.Value.IndexOf(":");
+                        int indexPwd = indexEmail - 1;
+                        if (indexEmail != -1)
                         {
-                             pwd = consumer.Message.Value.Substring(indiceLettera + 1);
+                             pwd = consumer.Message.Value.Substring(indexEmail + 1);
+                            
+                             email = consumer.Message.Value.Substring(indexName +1, (indexEmail-1) - (indexName ));
 
-                             email = consumer.Message.Value.Substring(0, indiceLettera);
+                             name = consumer.Message.Value.Substring(0, indexName);
 
                             //  _sendEmail.SendEmailToAll("a.it", "m@hotmail.com","ciao", "test invio email", true, "m@hotmail.com", ".,"smtp.office365.com",587);
-                            _sendEmail.SendEmailToAll(email, email, "Access BanK", "Dear customer, we inform you that access to your current account has been detected  " + DateTime.Now, true, email, pwd, "smtp.libero.it", 587);
+                            _sendEmail.SendEmailToAll(email, email, "Access BanK", $"Gentile {name} , ti informiamo che è stato rilevato l'accesso al tuo conto corrente in data:  {DateTime.Now}", true, email, pwd, "smtp.libero.it", 587);
 
                         }
                         else
@@ -51,7 +57,7 @@ namespace KafKaConsumer
                             Console.WriteLine("Not found");
                         }
                    
-                        Console.WriteLine($"Message: {consumer.Message.Value +" " + DateTime.Now} received from {consumer.TopicPartitionOffset}");
+                        Console.WriteLine($"Message: {name+ " " + DateTime.Now} received from {consumer.TopicPartitionOffset}");
                     }
                 }
                 catch (Exception)
