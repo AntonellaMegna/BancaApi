@@ -35,11 +35,9 @@ namespace KafKaConsumer
                         string pwd = "";
                         string email = "";
                         string name = "";
-                        int i = consumer.Message.Value.Length;
                         int indexEmail = consumer.Message.Value.IndexOf("♥");
-                        
                         int indexName= consumer.Message.Value.IndexOf(":");
-                        int indexPwd = indexEmail - 1;
+                     
                         if (indexEmail != -1)
                         {
                              pwd = consumer.Message.Value.Substring(indexEmail + 1);
